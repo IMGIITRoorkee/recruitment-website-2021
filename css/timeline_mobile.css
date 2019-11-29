@@ -1,5 +1,59 @@
+.timeline-mobile{
+    display: none;
+    text-align: center;
+    margin: 0 auto;  
+    /* justify-content: center;
+    flex-flow:column wrap;
+    align-items: center; */
+}
+
+.event-heading-mobile {
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 0.65rem;
+    line-height: 1rem;
+    color: #000000;
+    text-align: center;  
+}
+
+.event-date-mobile {
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 0.65rem;
+    line-height: 1rem;
+    color: #000000; 
+    text-align: center;   
+}
+
+.event-connect {
+    height: 80px;
+    width:5px;
+    background-color: #DDDDDD;
+    display:block;
+    margin: 0 auto; 
+    
+}
+.event-ongoing {
+    height:80px;
+    width:5px;
+    background: rgb(248,209,108);
+    background: linear-gradient(180deg, rgba(248,209,108,1) 0%, rgba(248,209,108,1) 60%, rgba(221,221,221,1) 60%, rgba(221,221,221,1) 100%);
+    display:block;
+    margin: 0 auto; 
+}
+.event-complete {
+    height: 80px;
+    width:5px;
+    background-color: #F8D16C;
+    display:block;
+    margin: 0 auto; 
+}
+
 @media screen and (max-width: 1221px) {
     .timeline-desktop{
         display: none;
 }
+    .timeline-mobile{
+        display:block;
+    }
 }

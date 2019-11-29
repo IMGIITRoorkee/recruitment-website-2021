@@ -68,6 +68,7 @@ input[type=checkbox] {
     right: 15px;
     height: 22px;
     width: 22px;
+    margin-top: -6px;
 }
 .spinner {
     transition: all 0.3s;
@@ -82,14 +83,14 @@ input[type=checkbox] {
     box-sizing: border-box;
     position: relative;
     float: left;
-    margin-top: 0px;
+    margin-top: 3px;
 }
 .diagonal.part-1 {
     position: relative;
     transition: all 0.3s;
     box-sizing: border-box;
     float: left;
-    margin-top: -6px;
+    margin-top: 0px;
 }
 .diagonal.part-2 {
     transition: all 0.3s;
