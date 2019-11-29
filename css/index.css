@@ -60,9 +60,17 @@
     margin-bottom: 1.5em;
 }
 
+.timeline-heading {
+    margin-bottom: 1.5em;
+}
+
 .timeline-container {
     margin-top: 4.8em;
     height: 15em;
+}
+
+.why-img-section {
+    margin-top: 6.5em;
 }
 
 .why-img-wrapper {
