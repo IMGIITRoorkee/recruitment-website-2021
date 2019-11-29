@@ -14,7 +14,8 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100%;
+    width: 100%;
 }
 
 main {
@@ -29,7 +30,6 @@ nav {
 
 .site-container {
     max-width: 1000px;
-    max-height: 100%;
     margin: 0 auto;
 }
 
@@ -49,7 +49,7 @@ nav {
 
 .site-logo {
     display: inline-block;
-    width: 2.75em;
+    width: 3.25em;
 }
 
 .site-logo-text {
@@ -82,6 +82,25 @@ nav {
     position: relative;
     bottom: 1px;
     transition-duration: 1s;
+}
+
+.site-cta-button {
+    background: #293B52;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 2em;
+    cursor: pointer;
+    font-size: 0.75em;
+    user-select: none;
+}
+
+.site-cta-button:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+}
+
+.site-cta-button:active {
+    border: none;
 }
 
 footer {
@@ -134,7 +153,6 @@ footer {
     position: relative;
     display: inline-block;
     font-family: Playfair Display;
-    font-style: normal;
     font-weight: bold;
     font-size: 2em;
     color: #3B3736;
@@ -159,7 +177,6 @@ footer {
     position: relative;
     display: inline-block;
     font-family: Nunito Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 1em;
     color: #000000;
@@ -167,9 +184,121 @@ footer {
 
 .page-subtitle {
     font-family: Nunito Sans;
-    font-style: normal;
     font-weight: normal;
     font-size: 1em;
     line-height: 1.375em;
     color: #878787;
+}
+
+.process-description-box {
+    background: #F7F7F7;
+    padding: 1.25em 2em;
+    margin-bottom: 2em;
+}
+
+.process-description-content {
+    
+}
+
+.process-description-heading {
+    font-family: Playfair Display;
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #000000;
+}
+
+.process-description-text {
+    font-family: Nunito Sans;
+    margin-top: 1.55em;
+    font-weight: normal;
+    font-size: 0.75em;
+    line-height: 1.2em;
+    color: #666666;
+}
+
+.process-description-box:nth-child(1) {
+    margin-top: 1.4em;
+}
+
+.process-choices-description {
+    padding: 2em 2em;
+}
+
+.process-choices-description .process-description-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.process-choices-description .process-choices {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.process-choices-description .process-choices .process-choice:nth-child(1) {
+    margin-right: 0.75em;
+}
+
+.process-choices-description .process-choices .process-choice:nth-child(3) {
+    margin-left: 0.75em;
+}
+
+.process-choices-description .process-choice-heading {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #000000;
+    margin-top: 0.75em;
+}
+
+.process-choices-description .process-choice-text {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75em;
+    line-height: 1.3em;
+    color: #666666;
+    margin-top: 0.7em;
+    margin-bottom: 1em;
+}
+
+.process-choices-description .process-choice-or {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.75em;
+    line-height: 1em;
+    text-align: center;
+    color: #B8B8B8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.process-choices-description .process-choice-or span {
+    padding: 1.55em 0;
+}
+
+.process-choices-description .process-choice-or div {
+    flex-grow: 1;
+    width: 1px;
+    background: #A4A4A4;
+}
+
+.process-choices-description .process-choice-actions {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.75em;
+    line-height: 1em;
+    color: #000000;
+    margin-top: 1em;
+}
+
+.download-icon {
+    width: 1.25em;
+    vertical-align: middle;
+    margin-right: 0.25em;
 }
