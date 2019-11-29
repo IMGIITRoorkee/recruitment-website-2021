@@ -7,7 +7,7 @@
     <title>
         IMG Recruitments 2020
     </title>
-    <link rel="icon" href="./assets/favicon.ico" type="image/ico" />
+    <link rel="icon" href="/assets/favicon.ico" type="image/ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!--Imports-->
@@ -19,7 +19,7 @@
 
 
     <!--Stylesheets-->
-    <link href="./css/base.css" type="text/css" rel="stylesheet" />
+    <link href="/css/base.css" type="text/css" rel="stylesheet" />
 
 
     <!--Development mode, live reload-->
@@ -30,7 +30,7 @@
     <!-- Facebook -->
     <meta property="og:title" content="IMG Recruitments 2020" />
     <meta property="og:type" content="Recruitments" />
-    <meta property="og:image" content="./assets/imglogo.png" />
+    <meta property="og:image" content="/assets/imglogo.png" />
     <meta property="og:url" content="https://hello.channeli.in" />
     <meta property="og:description" content="IMG announces recruitments 2020. We are looking for talented devlopers and 
     designers who have a desire to learn and grow. Read more about the recruitments process, assignments and our 
@@ -46,7 +46,7 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="./assets/imglogo.png">
+    <meta name="twitter:image" content="/assets/imglogo.png">
     <meta name="twitter:title" content="IMG Recruitments 2020">
     <meta name="twitter:url" content="https://hello.channeli.in">
     <meta name="twitter:description" content="IMG announces recruitments 2020. We are looking for talented devlopers and 
@@ -59,21 +59,21 @@
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+        gtag("js", new Date());
 
-        gtag('config', 'UA-91324551-3');
+        gtag("config", "UA-91324551-3");
     </script>
 
 </head>
 
 <body>
     <nav class="site-navbar">
-        <div class='site-container'>
+        <div class="site-container">
             <div class="site-navbar-wrapper">
                 <div>
-                    <a href='/' class="site-home-link">
-                        <img src='./assets/imglogo.png' class='site-logo' />
-                        <div class='site-logo-text'>
+                    <a href="/" class="site-home-link">
+                        <img src="/assets/imglogo.png" class="site-logo" alt="IMG logo" />
+                        <div class="site-logo-text">
                             Recruitment
                             <br/> 2020
                         </div>
@@ -83,7 +83,7 @@
                     <a href="/" class="navlink">
                         HOME
                     </a>
-                    <a href="./about_us" class="navlink" selected="True">
+                    <a href="/about_us" class="navlink" selected="True">
                         ABOUT US
                     </a>
                     <a href="/design" class="navlink">
@@ -99,8 +99,36 @@
     <main>
         This is the website
     </main>
-    <footer>
-        This is footer atached to the last
+    <footer class="site-footer">
+        <div class="site-container">
+            <div class="site-footer-wrapper">
+                <div class="sociallinks">
+                    <a href="https://www.facebook.com/IMGIITRoorkee/" class="sociallink">
+                        <img src="/assets/social_icons/fb.svg" alt="facebook-icon" />
+                    </a>
+                    <a href="https://www.instagram.com/img_iitr/" class="sociallink">
+                        <img src="/assets/social_icons/instagram.svg" alt="instagram-icon" />
+                    </a>
+                    <a href="https://github.com/IMGIITRoorkee" class="sociallink">
+                        <img src="/assets/social_icons/github.svg" alt="github-icon" />
+                    </a>
+                    <a href="https://gitter.im/IMGIITRoorkee/recruitment-2020" class="sociallink">
+                        <img src="/assets/social_icons/gitter.svg" alt="gitter-icon" />
+                    </a>
+                </div>
+                <div class="navlinks">
+                    <a href="/about_us" class="navlink">
+                        ABOUT US
+                    </a>
+                    <a href="/design" class="navlink">
+                        DESIGN
+                    </a>
+                    <a href="/development" class="navlink">
+                        DEVELOPEMENT
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
