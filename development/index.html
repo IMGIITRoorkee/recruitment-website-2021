@@ -20,7 +20,12 @@
 
     <!--Stylesheets-->
     <link href="/css/base.css" type="text/css" rel="stylesheet" />
+    <link href="/css/base_hamburger.css" type="text/css" rel="stylesheet" />
     <link href="/css/development.css" type="text/css" rel="stylesheet" />
+
+
+    <!--Javascript-->
+    <script type="text/javascript" src="/js/base_hamburger.js"></script>
 
 
     <!--Development mode, live reload-->
@@ -60,9 +65,9 @@
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
-        gtag("js", new Date());
+        gtag('js', new Date());
 
-        gtag("config", "UA-91324551-3");
+        gtag('config', 'UA-91324551-3');
     </script>
 
 </head>
@@ -76,11 +81,11 @@
                         <img src="/assets/imglogo.png" class="site-logo" alt="IMG logo" />
                         <div class="site-logo-text">
                             Recruitment
-                            <br/> 2020
+                            <br /> 2020
                         </div>
                     </a>
                 </div>
-                <div class="navlinks">
+                <div class="navlinks-horizontal">
                     <a href="/" class="navlink">
                         HOME
                     </a>
@@ -93,6 +98,38 @@
                     <a href="/development" class="navlink" selected="True">
                         DEVELOPEMENT
                     </a>
+                </div>
+                <div class="navlinks-mobile">
+                    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+                    <label for="openSidebarMenu" class="sidebarIconToggle">
+                        <div class="spinner diagonal part-1"></div>
+                        <div class="spinner horizontal"></div>
+                        <div class="spinner diagonal part-2"></div>
+                    </label>
+                    <div id="sidebarMenu">
+                        <ul class="sidebarMenuInner">
+                            <li>
+                                <a href="/" class="navlink">
+                                    HOME
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/about_us" class="navlink">
+                                    ABOUT US
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/design" class="navlink">
+                                    DESIGN
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/development" class="navlink" selected="True">
+                                    DEVELOPEMENT
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -111,6 +148,13 @@
                         <div class="heading-background-box"></div>
                         <div class="heading-text">First year Students</div>
                     </h2>
+                    <div class="page-subtitle">
+                        Join the team by either of the
+                        <strong>two</strong> paths
+                    </div>
+                    <div class="">
+
+                    </div>
                 </div>
             </div>
         </section>

@@ -1,3 +1,7 @@
 .development .page-heading-background {
     background: url('/assets/development_title_background.png');
 }
+
+.first-year-wrapper {
+    padding-top: 2.5em;
+}
