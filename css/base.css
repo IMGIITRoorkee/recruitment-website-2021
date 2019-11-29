@@ -74,6 +74,7 @@ nav {
     color: #3B3736;
     text-decoration: none;
     text-transform: uppercase;
+    user-select: none;
 }
 
 .navlink[selected='True'] {
