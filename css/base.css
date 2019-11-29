@@ -24,7 +24,8 @@ main {
 }
 
 nav {
-    height: 4.5em;
+    height: 1em;
+    min-height: 4.5em;
     padding: auto 0;
 }
 
@@ -105,7 +106,8 @@ nav {
 }
 
 footer {
-    height: 3.5em;
+    height: 1em;
+    min-height: 3.5em;
     background: #293B52;
 }
 
