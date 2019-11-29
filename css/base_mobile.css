@@ -1,0 +1,14 @@
+@media screen and (max-width: 1024px) {
+    .site-container {
+    margin:0px 12px;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .navlinks {
+        display: none;
+    }
+    .site-footer-wrapper {
+        justify-content: space-around;
+    }
+}
