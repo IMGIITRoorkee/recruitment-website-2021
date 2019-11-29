@@ -10,11 +10,21 @@
     <link rel="icon" href="./assets/favicon.ico" type="image/ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!--Development mode, live reload-->
-    <script type="text/javascript" src="http://livejs.com/live.js"></script>
+    <!--Imports-->
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900|Playfair+Display:700&display=swap" rel="stylesheet">
 
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <!--Stylesheets-->
+    <link href="./css/base.css" type="text/css" rel="stylesheet" />
+
+
+    <!--Development mode, live reload-->
+    <script type="text/javascript" src="http://livejs.com/live.js"></script>
+
 
     <!--Meta tags for social sites, because we know how to use them-->
     <!-- Facebook -->
@@ -34,8 +44,6 @@
     <meta name="keywords" content="IMG, Recruitments, Web, Development, Design, Designer, Experience, UX, UI, 
     Github, Dribbe, iit, iitr, Roorkee, Portfolio, Website, Code, Learn, Grow" />
 
-
-
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="./assets/imglogo.png">
@@ -45,6 +53,7 @@
     designers who have a desire to learn and grow. Read more about the recruitments process, assignments and our 
     beloved culture on this website.">
 
+    <!--Analytics-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91324551-3"></script>
     <script>
@@ -58,7 +67,41 @@
 </head>
 
 <body>
-
+    <nav class="site-navbar">
+        <div class='site-container'>
+            <div class="site-navbar-wrapper">
+                <div>
+                    <a href='/' class="site-home-link">
+                        <img src='./assets/imglogo.png' class='site-logo' />
+                        <div class='site-logo-text'>
+                            Recruitment
+                            <br/> 2020
+                        </div>
+                    </a>
+                </div>
+                <div class="navlinks">
+                    <a href="/" class="navlink">
+                        HOME
+                    </a>
+                    <a href="./about_us" class="navlink" selected="True">
+                        ABOUT US
+                    </a>
+                    <a href="/design" class="navlink">
+                        DESIGN
+                    </a>
+                    <a href="/development" class="navlink">
+                        DEVELOPEMENT
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        This is the website
+    </main>
+    <footer>
+        This is footer atached to the last
+    </footer>
 </body>
 
 </html>

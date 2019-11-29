@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Default CSS */
+:root {
+    font-size: 24px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.site-navbar {
+    height: 4.5em;
+    padding: auto 0;
+}
+
+.site-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.site-navbar-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-home-link {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+}
+
+.site-logo {
+    display: inline-block;
+    width: 3.25em;
+    height: 3.25em;
+}
+
+.site-logo-text {
+    font-weight: bold;
+    font-size: 0.75em;
+    line-height: 1rem;
+    margin-left: 1em;
+    color: #000000;
+}
+
+.navlinks {
+    display: grid;
+    grid-column-gap: 1.8em;
+    grid-auto-flow: column;
+}
+
+.navlink {
+    font-size: 0.5em;
+    line-height: 0.67em;
+    color: #3B3736;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navlink[selected='True'] {
+    font-weight: 900;
+}
