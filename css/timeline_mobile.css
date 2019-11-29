@@ -1,0 +1,5 @@
+@media screen and (max-width: 1221px) {
+    .timeline-desktop{
+        display: none;
+}
+}
