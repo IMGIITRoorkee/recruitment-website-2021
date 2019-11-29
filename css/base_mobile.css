@@ -11,4 +11,7 @@
     .site-footer-wrapper {
         justify-content: space-around;
     }
+    .sociallink img {
+        width: 0.75em;
+    }    
 }
