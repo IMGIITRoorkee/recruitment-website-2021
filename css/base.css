@@ -70,7 +70,7 @@ nav {
 
 .navlink {
     font-size: 0.5em;
-    line-height: 0.67em;
+    line-height: 0.67rem;
     color: #3B3736;
     text-decoration: none;
     text-transform: uppercase;
@@ -90,9 +90,9 @@ nav {
     background: #293B52;
     color: #ffffff;
     border: none;
-    padding: 0.5em 2em;
+    padding: 0.5rem 2rem;
     cursor: pointer;
-    font-size: 0.75em;
+    font-size: 0.67rem;
     user-select: none;
 }
 
@@ -102,6 +102,25 @@ nav {
 }
 
 .site-cta-button:active {
+    border: none;
+}
+
+.site-ghost-button {
+    border: 1px solid #293B52;
+    background: none;
+    color: #293B52;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    font-size: 0.67rem;
+    user-select: none;
+}
+
+.site-ghost-button:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+}
+
+.site-ghost-button:active {
     border: none;
 }
 
@@ -191,7 +210,7 @@ footer {
     font-family: Nunito Sans;
     font-weight: normal;
     font-size: 1em;
-    line-height: 1.375em;
+    line-height: 1.375rem;
     color: #878787;
     user-select: none;    
 }
@@ -210,7 +229,7 @@ footer {
     font-family: Playfair Display;
     font-weight: 900;
     font-size: 1em;
-    line-height: 1.4em;
+    line-height: 1.4rem;
     color: #000000;
 }
 
@@ -219,7 +238,7 @@ footer {
     margin-top: 1.55em;
     font-weight: normal;
     font-size: 0.75em;
-    line-height: 1.2em;
+    line-height: 1.2rem;
     color: #666666;
 }
 
@@ -254,7 +273,7 @@ footer {
     font-style: normal;
     font-weight: bold;
     font-size: 1em;
-    line-height: 1.4em;
+    line-height: 1.4rem;
     color: #000000;
     margin-top: 0.75em;
 }
@@ -264,7 +283,7 @@ footer {
     font-style: normal;
     font-weight: normal;
     font-size: 0.75em;
-    line-height: 1.3em;
+    line-height: 1.3rem;
     color: #666666;
     margin-top: 0.7em;
     margin-bottom: 1em;
@@ -275,7 +294,7 @@ footer {
     font-style: normal;
     font-weight: bold;
     font-size: 0.75em;
-    line-height: 1em;
+    line-height: 1rem;
     text-align: center;
     color: #B8B8B8;
     display: flex;
@@ -299,7 +318,7 @@ footer {
     font-style: normal;
     font-weight: bold;
     font-size: 0.75em;
-    line-height: 1em;
+    line-height: 1rem;
     color: #000000;
     margin-top: 1em;
 }

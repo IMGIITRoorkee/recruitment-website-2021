@@ -1,0 +1,137 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    'illustration design'
+    'illustration development';
+    min-height: 25em;
+    grid-column-gap: 4em;
+}
+
+.illustration-container {
+    grid-area: illustration;
+}
+
+.design-information-container {
+    grid-area: design;
+}
+
+.development-information-container {
+    grid-area: development;
+}
+
+.illustration-container {
+    max-width: 100%;
+    background: url('/assets/main_illustration.png');
+}
+
+.main-page-heading {
+    position: relative;
+    display: inline-block;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 1.83em;
+    color: #3B3736;
+    user-select: none;
+}
+
+.heading-background-box {
+    background: #F8D16C;
+    position: absolute;
+    width: 85%;
+    height: 65%;
+    left: 30%;
+    bottom: 35%;
+    z-index: 1;
+}
+
+.heading-text {
+    position: relative;
+    z-index: 2;
+}
+
+.heading-information {
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 0.67em;
+    line-height: 1em;;
+    color: #878787;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.timeline-container {
+    margin-top: 4.8em;
+    height: 15em;
+}
+
+.why-img-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: column;
+    grid-column-gap: 1.7em;
+}
+
+.why-img-content {
+}
+
+.why-img-text {
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 0.75em;
+    line-height: 1rem;
+    color: #878787;
+    margin-top: 0.5em;
+    margin-bottom: 1.625em;
+}
+
+.why-img-illustration {
+    height: 100%;
+    min-height: 12.5em;
+    background: url("/assets/why_img_illustration.png")
+}
+
+.updates-section {
+    margin-top: 6.5em;
+}
+
+.updates-wrapper {
+    text-align: center;
+}
+
+.updates {
+    margin-top: 1em;
+    margin-bottom: 4.8em;
+}
+
+.update-item {
+    width: 75%;
+    padding: 0.5em 1.67em;
+    margin: 0 auto;
+}
+
+.update-item:nth-child(odd) {
+    background: #F4F4F4;
+}
+
+.update-item:nth-child(even) {
+    background: #ffffff;
+}
+
+.update-time {
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 0.67em;
+    line-height: 0.75rem;
+    color: #878787;
+
+}
+
+.update-text {
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 0.75em;
+    line-height: 1rem;
+    color: #666666;
+    margin-top: 0.5em
+}
