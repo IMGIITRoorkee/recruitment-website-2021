@@ -16,7 +16,7 @@
     position: fixed;
     right: 0;
     width: 250px;
-    margin-top: 54px;
+    margin-top: 48px;
     transform: translateX(250px);
     transition: transform 250ms ease-in-out;
     background: #000;
