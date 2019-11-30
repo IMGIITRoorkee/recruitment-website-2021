@@ -8,9 +8,13 @@
         justify-content: center;
         width: 80%;
         margin: 0 auto;
+        margin-bottom: 5em;
     }
     .design-information-container {
-        margin-bottom: 1em;
+        margin-bottom: 2em;
+    }
+    .why-img-section {
+        margin-top: 5em;
     }
     .why-img-wrapper {
         display: flex;

@@ -93,7 +93,7 @@
     font-family: Nunito Sans;
     font-weight: normal;
     font-size: 0.75em;
-    line-height: 1rem;
+    line-height: 1.1rem;
     color: #878787;
     margin-top: 1em;
     margin-bottom: 1.625em;
@@ -106,7 +106,7 @@
 }
 
 .updates-section {
-    margin-top: 6.5em;
+    margin-top: 5em;
 }
 
 .updates-wrapper {

@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
     .site-container {
-    margin:0px 12px;
+    margin:0px 18px;
 }
 }
 
@@ -13,5 +13,8 @@
     }
     .sociallink img {
         width: 0.75em;
-    }    
+    }
+    .sociallink img[src="/assets/social_icons/fb.svg"] {
+        width: 0.5em;
+    } 
 }

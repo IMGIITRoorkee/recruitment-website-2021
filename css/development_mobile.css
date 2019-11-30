@@ -1,0 +1,48 @@
+@media screen and (max-width: 600px) {
+    .first-year-wrapper, .second-year-wrapper {
+        text-align: center;
+    }
+    .heading-background-box {
+        left: 25%;
+    }
+    .process-description-text {
+        text-align: left;
+    }
+    .process-choices-description .process-choices {
+        grid-auto-flow: row;
+    }
+    .process-choices-description .process-choices .process-choice:nth-child(1) {
+        margin-right: 0;
+    }
+    .process-choices-description .process-choices .process-choice:nth-child(3) {
+        margin-left: 0;
+    }
+    .process-choices-description .process-choice-text {
+        text-align: left;
+    }
+    .process-choices-description .process-choice-heading {
+        margin-top: 0;
+    }
+    .process-choices-description .process-choice-or {
+        flex-direction: row;
+     }
+    .process-choices-description .process-choice-or span {
+        padding: 2em 1.55em;
+    }
+    .process-choices-description .process-choice-or div {
+        flex-grow: 1;
+        height: 1px;
+        background: #A4A4A4;
+    }
+    .process-choices-description .process-description-header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.65em;
+    }
+    .process-description-heading {
+        text-align: center;
+    }
+    .process-choices-description .process-description-heading {
+        margin-bottom: 0.75em;
+    }
+}

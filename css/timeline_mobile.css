@@ -1,10 +1,7 @@
 .timeline-mobile{
     display: none;
     text-align: center;
-    margin: 0 auto;  
-    /* justify-content: center;
-    flex-flow:column wrap;
-    align-items: center; */
+    margin: 0 auto;
 }
 
 .event-heading-mobile {
@@ -55,5 +52,8 @@
 }
     .timeline-mobile{
         display:block;
+    }
+    .timeline-heading {
+        margin-bottom: 1em;
     }
 }
