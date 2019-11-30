@@ -82,23 +82,26 @@ nav {
 }
 
 .navlink:hover {
-    position: relative;
-    bottom: 1px;
-    transition-duration: 1s;
+    transition-duration: 0.3s;
+}
+
+.navlink[selected='True']:hover {
 }
 
 .site-cta-button {
+    font-family: Nunito Sans;
+    font-weight: normal;
     background: #293B52;
     color: #ffffff;
     border: none;
     padding: 0.5rem 2rem;
     cursor: pointer;
     font-size: 0.67rem;
-    user-select: none;
+    user-select: none;    
+    border-radius: 2px;
 }
 
 .site-cta-button:hover {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     transition: 0.25s;
 }
 
@@ -135,7 +138,7 @@ footer {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .site-footer-wrapper .navlink {
@@ -143,7 +146,6 @@ footer {
 }
 
 .sociallinks {
-    margin-right: 1em;
     display: grid;
     grid-column-gap: 0.5em;
     grid-auto-flow: column;
@@ -159,6 +161,10 @@ footer {
 
 .sociallink img {
     width: 0.5em;
+}
+
+.sociallink img[src="/assets/social_icons/fb.svg"] {
+    width: 0.4em;
 }
 
 /* Pages related CSS */

@@ -1,3 +1,7 @@
+.home {
+    margin-top: 1.75em;
+}
+
 .main-container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -14,10 +18,12 @@
 
 .design-information-container {
     grid-area: design;
+    align-self: center;
 }
 
 .development-information-container {
     grid-area: development;
+    align-self: center;
 }
 
 .illustration-container {
@@ -53,11 +59,11 @@
 .heading-information {
     font-family: Nunito Sans;
     font-weight: normal;
-    font-size: 0.67em;
-    line-height: 1em;;
+    font-size: 0.75em;
+    line-height: 1rem;
     color: #878787;
     margin-top: 1em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.625em;
 }
 
 .timeline-heading {
@@ -80,6 +86,7 @@
 }
 
 .why-img-content {
+    align-self: center;
 }
 
 .why-img-text {
@@ -88,7 +95,7 @@
     font-size: 0.75em;
     line-height: 1rem;
     color: #878787;
-    margin-top: 0.5em;
+    margin-top: 1em;
     margin-bottom: 1.625em;
 }
 
