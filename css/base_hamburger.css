@@ -120,9 +120,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transform: rotate(-135deg);
     margin-top: -9px;
 }
-.navlink[selected='True'] {
-    color: #f8d16c;
-}
 
 @media screen and (max-width: 600px) {
     .navlinks-horizontal {
@@ -130,6 +127,9 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     }
     .navlinks-mobile {
         display: grid;
+    }
+    .navlink[selected='True'] {
+        color: #f8d16c;
     }
 }
 
