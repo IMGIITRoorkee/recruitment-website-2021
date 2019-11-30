@@ -60,7 +60,7 @@
     font-family: Nunito Sans;
     font-weight: normal;
     font-size: 0.75em;
-    line-height: 1rem;
+    line-height: 1.1rem;
     color: #878787;
     margin-top: 1em;
     margin-bottom: 1.625em;
@@ -114,18 +114,18 @@
 }
 
 .updates {
-    margin-top: 1em;
+    margin-top: 1.5em;
     margin-bottom: 4.8em;
 }
 
 .update-item {
     width: 75%;
-    padding: 0.5em 1.67em;
+    padding: 0.75em 1.67em;
     margin: 0 auto;
 }
 
 .update-item:nth-child(odd) {
-    background: #F4F4F4;
+    background: #f7f7f7;
 }
 
 .update-item:nth-child(even) {
@@ -137,15 +137,15 @@
     font-weight: bold;
     font-size: 0.67em;
     line-height: 0.75rem;
-    color: #878787;
+    color: #9e9e9e;
 
 }
 
 .update-text {
     font-family: Nunito Sans;
     font-weight: normal;
-    font-size: 0.75em;
+    font-size: 0.67em;
     line-height: 1rem;
     color: #666666;
-    margin-top: 0.5em
+    margin-top: 0.5em;
 }
