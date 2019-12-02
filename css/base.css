@@ -252,7 +252,12 @@ footer {
     color: #666666;
 }
 
+.process-choice-action-link {
+    text-decoration: none;
+}
+
 .process-choice-actions-text {
+    text-decoration: none;
     position:relative;
     top:2px
 }

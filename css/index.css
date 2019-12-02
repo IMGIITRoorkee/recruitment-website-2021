@@ -28,7 +28,10 @@
 
 .illustration-container {
     max-width: 100%;
-    background: url('/assets/main_illustration.png');
+    background: url('/assets/main_illustration.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .main-page-heading {
@@ -102,7 +105,10 @@
 .why-img-illustration {
     height: 100%;
     min-height: 12.5em;
-    background: url("/assets/why_img_illustration.png")
+    background: url("/assets/why_img_illustration.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .updates-section {
