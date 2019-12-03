@@ -252,8 +252,13 @@ footer {
     color: #666666;
 }
 
+.process-choice{
+    display: grid;
+}
+
 .process-choice-action-link {
     text-decoration: none;
+    color: inherit;
 }
 
 .process-choice-actions-text {
