@@ -34,6 +34,11 @@ nav {
     margin: 0 auto;
 }
 
+.site-container-about {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .site-navbar-wrapper {
     height: 100%;
     display: flex;

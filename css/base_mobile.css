@@ -2,6 +2,9 @@
     .site-container {
     margin:0px 18px;
 }
+    .site-container-about {
+    margin:0px 18px;
+}
 }
 
 @media screen and (max-width: 600px) {

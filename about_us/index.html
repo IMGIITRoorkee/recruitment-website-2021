@@ -12,7 +12,8 @@
 
     <!--Imports-->
     <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900|Playfair+Display:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900|Playfair+Display:700&display=swap"
+        rel="stylesheet">
 
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -24,11 +25,13 @@
     <link href="/css/base_mobile.css" type="text/css" rel="stylesheet" />
     <link href="/css/fix_header.css" type="text/css" rel="stylesheet" />
     <link href="/css/about_us.css" type="text/css" rel="stylesheet" />
+    <link href="/css/image_gallery.css" type="text/css" rel="stylesheet" />
 
 
     <!--Javascript-->
     <script type="text/javascript" src="/js/base_hamburger.js"></script>
     <script type="text/javascript" src="/js/fix_header.js"></script>
+    <script type="text/javascript" src="/js/image_gallery.js"></script>
 
     <!--Development mode, live reload-->
     <!-- <script type="text/javascript" src="http://livejs.com/live.js"></script> -->
@@ -65,16 +68,16 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91324551-3"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+        window.dataLayer=window.dataLayer||[];
         function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+        gtag('js',new Date());
 
-        gtag('config', 'UA-91324551-3');
+        gtag('config','UA-91324551-3');
     </script>
 
 </head>
 
-<body>
+<body id="about-us">
     <nav class="site-navbar" id="site-navbar">
         <div class="site-container">
             <div class="site-navbar-wrapper">
@@ -152,8 +155,178 @@
             </h1>
         </section>
         <section>
-            <div class="site-container">
-                Hey Guys!!
+            <div class="site-container-about">
+                <div class="about-us-introduction">
+                    IMG is where you can get to meet, learn from, work with and hopefully, become one of the best
+                    developers
+                    or designers of the IIT Roorkee campus (at least). With the near-infinite resources at your
+                    disposal,
+                    unleash the tech beast in you and explore almost any field ‘under expert supervision’.
+                </div>
+                <div class="about-us-section-wrapper">
+                    <h2 class="page-title">
+                        <div class="heading-background-box"></div>
+                        <div class="heading-text">Our Role</div>
+                    </h2>
+                    <div class="about-us-description">
+                        We’re responsible for the development, maintenance and upgradation of Internet, Intranet and
+                        mobile applications, the website, and systems of the institute.<br /><br />
+                        For over seventeen years, we have pushed the boundaries of the technology in the institute, by
+                        building revolutionary solutions to pervasive problems. And sometimes just fun apps for fun's
+                        sake.<br /><br />
+                        We put the technology in the Indian Institute of Technology, Roorkee.
+                    </div>
+                </div>
+                <div class="about-us-section-wrapper">
+                    <h2 class="page-title">
+                        <div class="heading-background-box"></div>
+                        <div class="heading-text">Our Culture</div>
+                    </h2>
+                    <div class="about-us-description">
+                        When we are not busy creating magic, we have<br />
+                        the most charged coding nights,<br />
+                        the most intense gaming sessions, <br />
+                        the craziest in-lab music jams, <br />
+                        the wildest chaapos, <br />
+                        and the most emotional farewell. <br /><br />
+                        As we part ways, we ensure that you have the skills, the grit, and the
+                        tenacity to face the challenges of development and life. No wonder, we have alumni at the
+                        highest levels in the greatest corporations. You don’t just work here, you shine.
+                    </div>
+                </div>
+            </div>
+            <div class="image-gallery">
+                <div class="gallery-row">
+                    <div class="gallery-column">
+                        <img src="/assets/img_formal_group.JPG" style="width:100%" onclick="openModal();currentSlide(1)"
+                            class="hover-shadow cursor">
+                    </div>
+                    <div class="gallery-column">
+                        <img src="/assets/img_farewell.JPG" style="width:100%" onclick="openModal();currentSlide(2)"
+                            class="hover-shadow cursor">
+                    </div>
+                    <div class="gallery-column">
+                        <img src="/assets/img_formal_sel.JPG" style="width:100%" onclick="openModal();currentSlide(3)"
+                            class="hover-shadow cursor">
+                    </div>
+                    <div class="gallery-column">
+                        <img src="/assets/img_trip.JPG" style="width:100%" onclick="openModal();currentSlide(4)"
+                            class="hover-shadow cursor">
+                    </div>
+                </div>
+                <div id="myModal" class="modal" onclick="closeModal()">
+                    <!-- <span class=" close cursor" onclick="closeModal()">&times;</span> -->
+                    <div class="modal-content" onclick="modalClick(event)">
+
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="/assets/img_formal_group.JPG" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="/assets/img_farewell.JPG" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="/assets/img_formal_sel.JPG" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="/assets/img_trip.JPG" style="width:100%">
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="site-container-about">
+                <div class="about-us-section-wrapper">
+                    <h2 class="page-title">
+                        <div class="heading-background-box"></div>
+                        <div class="heading-text">Why join us?</div>
+                    </h2>
+                    <div class="about-us-description">
+                        You have the passion, we have the fuel.<br />
+                        From web-dev to security, from dev-ops to ML, if you can dream it, with IMG you can build
+                        it..<br />
+                        Come join us as we foray into the farthest expanses of technology..<br />
+                        With the recruitments, we believe .<br />
+                        coming together is a beginning,.<br />
+                        keeping together is progress,.<br />
+                        working together is a success.
+                    </div>
+                </div>
+                <div class="highlights-section">
+                    <div class="highlights-heading">
+                        '01
+                    </div>
+                    <span class="highlights-description">
+                        We laid our humble roots, and have never looked back
+                        since.
+                    </span>
+                </div>
+                <div class="highlights-section">
+                    <div class="highlights-heading">
+                        46
+                    </div>
+                    <span class="highlights-description">
+                        sharpies, all with the firm resolve "Work hard, party harder!"
+                    </span>
+                </div>
+                <div class="highlights-section">
+                    <div class="highlights-heading">
+                        22
+                    </div>
+                    <span class="highlights-description">
+                        applications up and running, with twice as many in the pipeline.
+                    </span>
+                </div>
+                <div class="highlights-section">
+                    <div class="highlights-heading">
+                        14k
+                    </div>
+                    <span class="highlights-description">
+                        (and counting) social media followers, who love us and our work.
+                    </span>
+                </div>
+                <div class="about-us-section-wrapper">
+                    <div class="about-us-description">
+                        *A complete list of achievements of our current group members and the alumni is omitted due to
+                        space constraints. Can be accessed on request.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="questions-set">
+                <div class="question-items">Feeling curious?
+                    <div class="question-description">Come to the lab</div>
+                </div>
+                <div class="question-items">Feeling geeky?
+                    <div class="question-description">Come to the lab</div>
+                </div>
+                <div class="question-items">Feeling dull?
+                    <div class="question-description">Come to the lab</div>
+                </div>
+                <div class="question-items">Feeling motivated?
+                    <div class="question-description">Come to the lab</div>
+                </div>
+                <div class="question-items">Feeling homesick?
+                    <div class="question-description">Come to the lab</div>
+                </div>
+                <div class="question-items">Feeling fantastic?
+                    <div class="question-description">Come to the lab</div>
+                </div>
+                <div class="question-items">Feeling creative?
+                    <div class="question-description">Come to the lab</div>
+                </div>
+            </div>
+            <div class="question-items-special">Feeling nothing?
+                <div class="question-description-special">Come to the lab</div>
             </div>
         </section>
     </main>
