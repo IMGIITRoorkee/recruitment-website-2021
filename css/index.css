@@ -62,11 +62,11 @@
 .heading-information {
     font-family: Nunito Sans;
     font-weight: normal;
-    font-size: 0.75em;
+    font-size: 0.67em;
     line-height: 1.1rem;
     color: #878787;
-    margin-top: 1em;
-    margin-bottom: 1.625em;
+    margin-top: 0.7em;
+    margin-bottom: 1.25em;
 }
 
 .timeline-heading {

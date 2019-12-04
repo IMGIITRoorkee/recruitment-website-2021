@@ -252,7 +252,6 @@ footer {
     margin-top: 1.55em;
     font-weight: normal;
     font-size: 0.67em;
-    text-align: justify;
     line-height: 1.1rem;
     color: #666666;
 }
@@ -313,11 +312,10 @@ footer {
     font-style: normal;
     font-weight: normal;
     font-size: 0.67em;
-    line-height: 1.1rem;
+    line-height: 0.96rem;
     color: #666666;
     margin-top: 0.7em;
     margin-bottom: 1.4em;
-    text-align: justify;
 }
 
 .process-choices-description .process-choice-or {
@@ -327,7 +325,7 @@ footer {
     font-size: 0.75em;
     line-height: 1rem;
     text-align: center;
-    color: #B8B8B8;
+    color: #CCCCCC;
     display: flex;
     flex-direction: column;
     align-items: center;
