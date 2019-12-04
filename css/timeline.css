@@ -61,7 +61,9 @@
 
 .event-illustration img {
     position: relative;
-    left: -50%;
+    left: calc(-50% + 4px);
+    width: 2.875em;
+    height: 4em;
 }
 
 .event-description {
