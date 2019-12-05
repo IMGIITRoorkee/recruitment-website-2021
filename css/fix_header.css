@@ -10,3 +10,9 @@
     min-height: 3.25em;
     z-index: 8;
 }
+
+.initial {
+    top: 0;
+    background-color: #fff;
+    z-index: 8;
+}

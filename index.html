@@ -32,6 +32,7 @@
     <!--Javascript-->
     <script type="text/javascript" src="/js/base_hamburger.js"></script>
     <script type="text/javascript" src="/js/fix_header.js"></script>
+    <script type="text/javascript" src="/js/toggle_overlay.js"></script>
 
 
     <!--Development mode, live reload-->
@@ -87,7 +88,7 @@
 </head>
 
 <body>
-    <nav class="site-navbar" id="site-navbar">
+    <nav class="site-navbar initial" id="site-navbar">
         <div class="site-container">
             <div class="site-navbar-wrapper">
                 <div>
@@ -114,7 +115,7 @@
                     </a>
                 </div>
                 <div class="navlinks-mobile">
-                    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+                    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" onclick="addOverlay()">
                     <label for="openSidebarMenu" class="sidebarIconToggle">
                         <div class="spinner diagonal part-1"></div>
                         <div class="spinner horizontal"></div>
@@ -156,7 +157,7 @@
             </div>
         </div>
     </nav>
-
+    <div id="overlay" onclick="hideOverlay()"></div>
     <main class="home">
         <section>
             <div class="site-container">
