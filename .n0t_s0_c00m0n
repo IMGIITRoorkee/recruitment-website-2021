@@ -144,16 +144,19 @@
         <div class="site-container">
             <div class="site-footer-wrapper">
                 <div class="sociallinks">
-                    <a href="https://www.facebook.com/IMGIITRoorkee/" class="sociallink" target="_blank">
+                    <a href="https://img.channeli.in/" class="sociallink" target="_blank" onclick="ga('send', 'social', 'IMG Website', 'visit', 'https://img.channeli.in/');">
+                        <img src="/assets/social_icons/website.svg" alt="website-icon" />
+                    </a>
+                    <a href="https://www.facebook.com/IMGIITRoorkee/" class="sociallink" target="_blank" onclick="ga('send', 'social', 'Facebook', 'visit', 'https://www.facebook.com/IMGIITRoorkee/');">
                         <img src="/assets/social_icons/fb.svg" alt="facebook-icon" />
                     </a>
-                    <a href="https://www.instagram.com/img_iitr/" class="sociallink" target="_blank">
+                    <a href="https://www.instagram.com/img_iitr/" class="sociallink" target="_blank" onclick="ga('send', 'social', 'Instagram', 'visit', 'https://www.instagram.com/img_iitr/');">
                         <img src="/assets/social_icons/instagram.svg" alt="instagram-icon" />
                     </a>
-                    <a href="https://github.com/IMGIITRoorkee" class="sociallink" target="_blank">
+                    <a href="https://github.com/IMGIITRoorkee" class="sociallink" target="_blank" onclick="ga('send', 'social', 'GitHub', 'visit', 'https://github.com/IMGIITRoorkee');">
                         <img src="/assets/social_icons/github.svg" alt="github-icon" />
                     </a>
-                    <a href="https://gitter.im/IMGIITRoorkee/recruitment-2020" class="sociallink" target="_blank">
+                    <a href="https://gitter.im/IMGIITRoorkee/recruitment-2020" class="sociallink" target="_blank" onclick="ga('send', 'social', 'Gitter', 'visit', 'https://gitter.im/IMGIITRoorkee/recruitment-2020');">
                         <img src="/assets/social_icons/gitter.svg" alt="gitter-icon" />
                     </a>
                 </div>

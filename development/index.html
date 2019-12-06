@@ -82,6 +82,13 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-91324551-3');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-91324551-3', 'auto');
     </script>
 
 </head>
@@ -196,7 +203,7 @@
                                     </h2>
                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLOXYsUpyYsAbmQ0LFBlntS16qv1xmx9mqThQzNuZHnXk7Bw/viewform?usp=sf_link"
                                         target="_blank">
-                                        <button class='site-cta-button' onclick="ga('send', 'event', 'Submission Form', 'submit assignment', 'Submit form for development-first year');">
+                                        <button class='site-cta-button' onclick="ga('send', 'event', 'Development Submission', 'first year', 'Submit form for development-first year');">
                                             Submission Form
                                         </button>
                                     </a>
@@ -215,7 +222,7 @@
                                             this winter and gain some real hands-on experience at web development.
                                         </div>
                                         <div class="process-choice-actions">
-                                            <a href="/assignments/Codeditch.pdf" class="process-choice-action-link" download="IMG_Winter_Assignment_Codeditch" onclick="ga('send', 'event', 'Download', 'download', 'Download Problem statement for development-codeditch');">
+                                            <a href="/assignments/Codeditch.pdf" class="process-choice-action-link" download="IMG_Winter_Assignment_Codeditch" onclick="ga('send', 'event', 'Development Download', 'codeditch', 'Download Problem statement for development-codeditch');">
                                                 <img src="/assets/download.svg" alt="download" class="download-icon" />
                                                 <span class="process-choice-actions-text">
                                                     Download Problem Statement
@@ -242,7 +249,7 @@
                                         </div>
                                         <div class="process-choice-actions">
                                             <a href="/assignments/Little_Horcruxes.pdf" class="process-choice-action-link" download="IMG_Winter_Assignment_Little_Horcruxes"
-                                                onclick="ga('send', 'event', 'Download', 'download', 'Download Problem statement for development-little_horcruxes');">
+                                                onclick="ga('send', 'event', 'Development Download', 'little horcruxes', 'Download Problem statement for development-little_horcruxes');">
                                                 <img src="/assets/download.svg" alt="download" class="download-icon" />
                                                 <span class="process-choice-actions-text">Download Problem Statement
                                                 </span>
@@ -268,7 +275,7 @@
                                     </h2>
                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSegHWIvKhM243XcmXxuNECiMrQ4oH-sCS5ZwVf40H1K-J2exQ/viewform?usp=sf_link"
                                         target="_blank">
-                                        <button class='site-cta-button' onclick="ga('send', 'event', 'Submission Form', 'submit assignment', 'Submit form for development-devly_hallows');">
+                                        <button class='site-cta-button' onclick="ga('send', 'event', 'Development Submission', 'devly hallows', 'Submit form for development-devly_hallows');">
                                             Submission Form
                                         </button>
                                     </a>
@@ -282,7 +289,7 @@
                                 </div>
                                 <div class="process-choice-actions">
                                     <a href="/assignments/Devly_Hallows.pdf" class="process-choice-action-link" download="IMG_Winter_Assignment_Devly_Hallows"
-                                        onclick="ga('send', 'event', 'Download', 'download', 'Download Problem statement for development-devly_hallows');">
+                                        onclick="ga('send', 'event', 'Development Download', 'devly hallows', 'Download Problem statement for development-devly_hallows');">
                                         <img src="/assets/download.svg" alt="download" class="download-icon" />
                                         <span class="process-choice-actions-text">Download Guidelines
                                         </span>
@@ -300,16 +307,19 @@
         <div class="site-container">
             <div class="site-footer-wrapper">
                 <div class="sociallinks">
-                    <a href="https://www.facebook.com/IMGIITRoorkee/" class="sociallink" target="_blank">
+                    <a href="https://img.channeli.in/" class="sociallink" target="_blank" onclick="ga('send', 'social', 'IMG Website', 'visit', 'https://img.channeli.in/');">
+                        <img src="/assets/social_icons/website.svg" alt="website-icon" />
+                    </a>
+                    <a href="https://www.facebook.com/IMGIITRoorkee/" class="sociallink" target="_blank" onclick="ga('send', 'social', 'Facebook', 'visit', 'https://www.facebook.com/IMGIITRoorkee/');">
                         <img src="/assets/social_icons/fb.svg" alt="facebook-icon" />
                     </a>
-                    <a href="https://www.instagram.com/img_iitr/" class="sociallink" target="_blank">
+                    <a href="https://www.instagram.com/img_iitr/" class="sociallink" target="_blank" onclick="ga('send', 'social', 'Instagram', 'visit', 'https://www.instagram.com/img_iitr/');">
                         <img src="/assets/social_icons/instagram.svg" alt="instagram-icon" />
                     </a>
-                    <a href="https://github.com/IMGIITRoorkee" class="sociallink" target="_blank">
+                    <a href="https://github.com/IMGIITRoorkee" class="sociallink" target="_blank" onclick="ga('send', 'social', 'GitHub', 'visit', 'https://github.com/IMGIITRoorkee');">
                         <img src="/assets/social_icons/github.svg" alt="github-icon" />
                     </a>
-                    <a href="https://gitter.im/IMGIITRoorkee/recruitment-2020" class="sociallink" target="_blank">
+                    <a href="https://gitter.im/IMGIITRoorkee/recruitment-2020" class="sociallink" target="_blank" onclick="ga('send', 'social', 'Gitter', 'visit', 'https://gitter.im/IMGIITRoorkee/recruitment-2020');">
                         <img src="/assets/social_icons/gitter.svg" alt="gitter-icon" />
                     </a>
                 </div>

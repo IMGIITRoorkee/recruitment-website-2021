@@ -84,6 +84,13 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-91324551-3');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-91324551-3', 'auto');
     </script>
 
 </head>
@@ -175,7 +182,7 @@
                             to deployment, in close collaboration with the developers.
                         </div>
                         <a href="/design/">
-                            <button class="site-cta-button" onclick="ga('send', 'event', 'Redirect', 'change page', 'Redirect to Design');">
+                            <button class="site-cta-button" onclick="ga('send', 'event', 'Inner Redirect', 'change page design', 'Redirect to Design');">
                                 How to Join?
                             </button>
                         </a>
@@ -190,7 +197,7 @@
                             all while exploring the recent technologies in a variety of fields.
                         </div>
                         <a href="/development/">
-                            <button class="site-cta-button" onclick="ga('send', 'event', 'Redirect', 'change page', 'Redirect to Development');">
+                            <button class="site-cta-button" onclick="ga('send', 'event', 'Inner Redirect', 'change page development', 'Redirect to Development');">
                                 How to Join?
                             </button>
                         </a>
@@ -356,7 +363,7 @@
                             the tech beast in you and explore almost any field ‘under expert supervision’.
                         </div>
                         <a href="./about_us/">
-                            <button class="site-cta-button" onclick="ga('send', 'event', 'Redirect', 'change page', 'Redirect to About us');">
+                            <button class="site-cta-button" onclick="ga('send', 'event', 'Inner Redirect', 'change page about us', 'Redirect to About us');">
                                 Know More
                             </button>
                         </a>
@@ -406,16 +413,19 @@
         <div class="site-container">
             <div class="site-footer-wrapper">
                 <div class="sociallinks">
-                    <a href="https://www.facebook.com/IMGIITRoorkee/" class="sociallink" target="_blank">
+                    <a href="https://img.channeli.in/" class="sociallink" target="_blank" onclick="ga('send', 'social', 'IMG Website', 'visit', 'https://img.channeli.in/');">
+                        <img src="/assets/social_icons/website.svg" alt="website-icon" />
+                    </a>
+                    <a href="https://www.facebook.com/IMGIITRoorkee/" class="sociallink" target="_blank" onclick="ga('send', 'social', 'Facebook', 'visit', 'https://www.facebook.com/IMGIITRoorkee/');">
                         <img src="/assets/social_icons/fb.svg" alt="facebook-icon" />
                     </a>
-                    <a href="https://www.instagram.com/img_iitr/" class="sociallink" target="_blank">
+                    <a href="https://www.instagram.com/img_iitr/" class="sociallink" target="_blank" onclick="ga('send', 'social', 'Instagram', 'visit', 'https://www.instagram.com/img_iitr/');">
                         <img src="/assets/social_icons/instagram.svg" alt="instagram-icon" />
                     </a>
-                    <a href="https://github.com/IMGIITRoorkee" class="sociallink" target="_blank">
+                    <a href="https://github.com/IMGIITRoorkee" class="sociallink" target="_blank" onclick="ga('send', 'social', 'GitHub', 'visit', 'https://github.com/IMGIITRoorkee');">
                         <img src="/assets/social_icons/github.svg" alt="github-icon" />
                     </a>
-                    <a href="https://gitter.im/IMGIITRoorkee/recruitment-2020" class="sociallink" target="_blank">
+                    <a href="https://gitter.im/IMGIITRoorkee/recruitment-2020" class="sociallink" target="_blank" onclick="ga('send', 'social', 'Gitter', 'visit', 'https://gitter.im/IMGIITRoorkee/recruitment-2020');">
                         <img src="/assets/social_icons/gitter.svg" alt="gitter-icon" />
                     </a>
                 </div>

@@ -82,6 +82,13 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-91324551-3');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-91324551-3', 'auto');
     </script>
 
 </head>
@@ -341,7 +348,7 @@
             </div>
             <div class="website-link">
                 <a href="https://img.channeli.in">
-                    <button class='site-cta-button' onclick="ga('send', 'event', 'Redirect', 'change page', 'Redirect to IMG Website');">
+                    <button class='site-cta-button' onclick="ga('send', 'event', 'Inner Redirect', 'redirect-IMG_website', 'Redirect to IMG Website');">
                         Visit IMG Website
                     </button>
                 </a>
@@ -352,16 +359,19 @@
         <div class="site-container">
             <div class="site-footer-wrapper">
                 <div class="sociallinks">
-                    <a href="https://www.facebook.com/IMGIITRoorkee/" class="sociallink" target="_blank">
+                    <a href="https://img.channeli.in/" class="sociallink" target="_blank" onclick="ga('send', 'social', 'IMG Website', 'visit', 'https://img.channeli.in/');">
+                        <img src="/assets/social_icons/website.svg" alt="website-icon" />
+                    </a>
+                    <a href="https://www.facebook.com/IMGIITRoorkee/" class="sociallink" target="_blank" onclick="ga('send', 'social', 'Facebook', 'visit', 'https://www.facebook.com/IMGIITRoorkee/');">
                         <img src="/assets/social_icons/fb.svg" alt="facebook-icon" />
                     </a>
-                    <a href="https://www.instagram.com/img_iitr/" class="sociallink" target="_blank">
+                    <a href="https://www.instagram.com/img_iitr/" class="sociallink" target="_blank" onclick="ga('send', 'social', 'Instagram', 'visit', 'https://www.instagram.com/img_iitr/');">
                         <img src="/assets/social_icons/instagram.svg" alt="instagram-icon" />
                     </a>
-                    <a href="https://github.com/IMGIITRoorkee" class="sociallink" target="_blank">
+                    <a href="https://github.com/IMGIITRoorkee" class="sociallink" target="_blank" onclick="ga('send', 'social', 'GitHub', 'visit', 'https://github.com/IMGIITRoorkee');">
                         <img src="/assets/social_icons/github.svg" alt="github-icon" />
                     </a>
-                    <a href="https://gitter.im/IMGIITRoorkee/recruitment-2020" class="sociallink" target="_blank">
+                    <a href="https://gitter.im/IMGIITRoorkee/recruitment-2020" class="sociallink" target="_blank" onclick="ga('send', 'social', 'Gitter', 'visit', 'https://gitter.im/IMGIITRoorkee/recruitment-2020');">
                         <img src="/assets/social_icons/gitter.svg" alt="gitter-icon" />
                     </a>
                 </div>
