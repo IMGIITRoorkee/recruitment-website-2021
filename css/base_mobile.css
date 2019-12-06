@@ -19,5 +19,11 @@
     }
     .sociallink img[src="/assets/social_icons/fb.svg"] {
         width: 0.5em;
-    } 
+    }
+    .page-heading-background {
+        background: url('/assets/banner_mobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
