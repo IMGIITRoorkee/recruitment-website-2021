@@ -1,4 +1,3 @@
-
 const notificationArray = [
     { title: 'IMG Recruitment Update', body: 'Hey, have you checked out the Winter Design Assignment? Click here to check them now.', icon: '/assets/img_notif.png', redirectURL: '/design/', token: 'eflzPOEBN3' },
     { title: 'IMG Recruitment Update', body: 'Hey, have you checked out the Winter Developer Assignment? Click here to check them now.', icon: '/assets/img_notif.png', redirectURL: '/development/', token: 'LeyjfMSaDg' },
@@ -51,7 +50,10 @@ const notifPermission = Notification.permission
 
 if (notifPermission != "granted") {
     Notification.requestPermission().then(function (result) {
-        spawnNotification()
+        if (result == "granted") {
+            ga('send', 'event', 'Notification', 'notification subscribed', 'Notification allowed');
+            spawnNotification()
+        }
     })
 } else {
     spawnNotification()
