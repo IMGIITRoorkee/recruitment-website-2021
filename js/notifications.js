@@ -1,6 +1,7 @@
 const notificationArray = [
     { title: 'IMG Recruitment Update', body: 'Hey, have you checked out the Winter Design Assignment? Click here to check them now.', icon: '/assets/img_notif.png', redirectURL: '/design/', token: 'eflzPOEBN3' },
     { title: 'IMG Recruitment Update', body: 'Hey, have you checked out the Winter Developer Assignment? Click here to check them now.', icon: '/assets/img_notif.png', redirectURL: '/development/', token: 'LeyjfMSaDg' },
+    { title: 'IMG Recruitment Update', body: 'Deadline for submitting the design winter assignment has been extended.', icon: '/assets/img_notif.png', redirectURL: '/design/', token: 'Bnd5bZigNS' },
 ]
 
 
