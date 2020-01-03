@@ -34,8 +34,7 @@ function spawnNotification() {
     let lastNotifIndex = -1
     lastNotifIndex = notificationArray.findIndex(notif => (notif.token == notifLastToken))
     const notification = []
-    for (let i = lastNotifIndex + 1; i < notificationArray.length; i++) {
-        setCookie('notifLastToken', notificationArray[i].token, 90)
+    for (let i = notificationArray.length - 1; i > lastNotifIndex; i--) {
         notification[i] = new Notification(notificationArray[i].title, { body: notificationArray[i].body, icon: notificationArray[i].icon })
         if (notificationArray[i].redirectURL) {
             notification[i].onclick = () => {
@@ -44,6 +43,7 @@ function spawnNotification() {
             }
         }
     }
+    setCookie('notifLastToken', notificationArray[notificationArray.length - 1].token, 90)
 }
 
 const notifPermission = Notification.permission
