@@ -61,6 +61,14 @@ const notificationArray = [
     icon: '/assets/img_notif.png',
     redirectURL: '/',
     token: 'D3@dl!ne3xt3nd3d'
+  },
+  {
+    title: 'IMG Recruitment Update',
+    body: 'Results are out at our facebook page.',
+    icon: '/assets/img_notif.png',
+    redirectURL:
+      'https://www.facebook.com/IMGIITRoorkee/photos/a.379646646987/10158584991156988/?type=3&theater',
+    token: 'R3$ults0ut'
   }
 ]
 
