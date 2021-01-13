@@ -5,7 +5,7 @@ const notificationArray = [
       'Hey, have you checked out the Winter Design Assignment? Click here to check them now.',
     icon: '/assets/img_notif.png',
     redirectURL: '/design/',
-    token: 'eflzPOEBN3'
+    token: 'sdmnjyhdsw'
   },
   {
     title: 'IMG Recruitment Update',
@@ -13,7 +13,7 @@ const notificationArray = [
       'Hey, have you checked out the Winter Developer Assignment? Click here to check them now.',
     icon: '/assets/img_notif.png',
     redirectURL: '/development/',
-    token: 'LeyjfMSaDg'
+    token: 'jhwesndch7b'
   },
 ]
 
