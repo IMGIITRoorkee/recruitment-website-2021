@@ -15,61 +15,6 @@ const notificationArray = [
     redirectURL: '/development/',
     token: 'LeyjfMSaDg'
   },
-  {
-    title: 'IMG Recruitment Update',
-    body:
-      'Deadline for submitting the design winter assignment has been extended.',
-    icon: '/assets/img_notif.png',
-    redirectURL: '/design/',
-    token: 'Bnd5bZigNS'
-  },
-  {
-    title: 'IMG Recruitment Update',
-    body:
-      'Recruitment Talk to held on 12 January, 2020 3:00 PM at MAC Auditorium',
-    icon: '/assets/img_notif.png',
-    token: 'R3cruitm3nt'
-  },
-  {
-    title: 'IMG Recruitment Update',
-    body:
-      'Hey Designers, do you know the results for Designer Winter assignments are out? Click here to check them now!',
-    icon: '/assets/img_notif.png',
-    redirectURL: '/',
-    token: 'D3s!gnR3sult'
-  },
-  {
-    title: 'IMG Recruitment Update',
-    body:
-      'IMG releases more designers assignment for first as well as second years.',
-    icon: '/assets/img_notif.png',
-    redirectURL: '/design',
-    token: 'D3s1gn@$$1nm3nts'
-  },
-  {
-    title: 'IMG Recruitment Update',
-    body:
-      'Developers Recruitment Test to be held on 13 January, 2020 06:15 PM at LHC.',
-    icon: '/assets/img_notif.png',
-    redirectURL: '/development',
-    token: 'R3cruitm3ntt3st'
-  },
-  {
-    title: 'IMG Recruitment Update',
-    body:
-      'Deadline for various assignments has been extended to 13 January, 2020 midnight.',
-    icon: '/assets/img_notif.png',
-    redirectURL: '/',
-    token: 'D3@dl!ne3xt3nd3d'
-  },
-  {
-    title: 'IMG Recruitment Update',
-    body: 'Results are out at our facebook page.',
-    icon: '/assets/img_notif.png',
-    redirectURL:
-      'https://www.facebook.com/IMGIITRoorkee/photos/a.379646646987/10158584991156988/?type=3&theater',
-    token: 'R3$ults0ut'
-  }
 ]
 
 // Cookies, yumm!

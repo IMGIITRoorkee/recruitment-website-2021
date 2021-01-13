@@ -18,7 +18,7 @@ function addOverlay() {
     const overlay = document.getElementById("overlay")
     if (document.getElementById("openSidebarMenu").checked) {
         overlay.style.display = "inline";
-    }   
+    }
     else {
         overlay.style.display = "none";
     }
