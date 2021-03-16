@@ -15,6 +15,11 @@ const notificationArray = [
     redirectURL: '/development/',
     token: 'jhwesndch7b'
   },
+  { title: 'IMG Recruitment Update',
+    body: 'Recruitment Talk to held on 12 January, 2020 3:00 PM at MAC Auditorium',
+    icon: '/assets/img_notif.png',
+    token: 'R3cruirehjnt'
+  },
 ]
 
 // Cookies, yumm!
