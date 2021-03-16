@@ -5,7 +5,7 @@
 }
 
 .middle-line .compeleted {
-  width: 10%;
+  width: 7%;
   background: #f8d16c;
 }
 
@@ -16,7 +16,7 @@
 
 .upper-events {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
 }
 
 .upper-event {
@@ -26,7 +26,8 @@
 
 .lower-events {
   display: grid;
-  grid-template-columns: 3fr 3fr;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
+  margin-left: 4em;
 }
 
 .lower-event {
@@ -46,10 +47,15 @@
 
 .lower-event[event='3'] {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .upper-event[event='4'] {
+  display: flex;
+  justify-content: center;
+}
+
+.lower-event[event='5'] {
   display: flex;
   justify-content: flex-end;
 }

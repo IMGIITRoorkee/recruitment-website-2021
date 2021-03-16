@@ -16,9 +16,19 @@ const notificationArray = [
     token: 'jhwesndch7b'
   },
   { title: 'IMG Recruitment Update',
-    body: 'Recruitment Talk to held on 12 January, 2020 3:00 PM at MAC Auditorium',
+    body: 'Recruitment Talk to held on 18 March, 2021 5:00 PM',
     icon: '/assets/img_notif.png',
     token: 'R3cruirehjnt'
+  },
+  { title: 'IMG Recruitment Update',
+    body: 'Winter Assignment submission Deadline on 20th March, 2021, Midnight ',
+    icon: '/assets/img_notif.png',
+    token: 'hehbjfnkds'
+  },
+  { title: 'IMG Recruitment Update',
+    body: 'Recruitment Test to be held on 22 March, 2021',
+    icon: '/assets/img_notif.png',
+    token: 'ruwbenjdwe'
   },
 ]
 
