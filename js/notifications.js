@@ -30,6 +30,11 @@ const notificationArray = [
     icon: '/assets/img_notif.png',
     token: 'ruwbenjdwe'
   },
+  { title: 'IMG Recruitment Update',
+    body: 'Register for the developer test on forminator.',
+    icon: '/assets/img_notif.png',
+    token: 'ruwrtybsj'
+  },
 ]
 
 // Cookies, yumm!
