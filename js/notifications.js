@@ -40,6 +40,11 @@ const notificationArray = [
     icon: '/assets/img_notif.png',
     token: 'bjwdiuww'
   },
+  { title: 'IMG Recruitment Update',
+    body: 'IMG announces Results for 2021',
+    icon: '/assets/img_notif.png',
+    token: 'ejhfsj'
+  },
 ]
 
 // Cookies, yumm!
