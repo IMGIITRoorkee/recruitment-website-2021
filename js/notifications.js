@@ -16,17 +16,17 @@ const notificationArray = [
     token: 'jhwesndch7b'
   },
   { title: 'IMG Recruitment Update',
-    body: 'Recruitment Talk to held on 18 March, 2021 5:00 PM',
+    body: 'Recruitment Talk to held on 18 March, 2022 5:00 PM',
     icon: '/assets/img_notif.png',
     token: 'R3cruirehjnt'
   },
   { title: 'IMG Recruitment Update',
-    body: 'Winter Assignment submission Deadline on 20th March, 2021, Midnight ',
+    body: 'Winter Assignment submission Deadline on 20th March, 2022, Midnight ',
     icon: '/assets/img_notif.png',
     token: 'hehbjfnkds'
   },
   { title: 'IMG Recruitment Update',
-    body: 'Recruitment Test to be held on 22 March, 2021',
+    body: 'Recruitment Test to be held on 22 March, 2022',
     icon: '/assets/img_notif.png',
     token: 'ruwbenjdwe'
   },
@@ -36,12 +36,12 @@ const notificationArray = [
     token: 'ruwrtybsj'
   },
   { title: 'IMG Recruitment Update',
-    body: 'IMG announces Design Assignment for 2021',
+    body: 'IMG announces Design Assignment for 2022',
     icon: '/assets/img_notif.png',
     token: 'bjwdiuww'
   },
   { title: 'IMG Recruitment Update',
-    body: 'IMG announces Results for 2021',
+    body: 'IMG announces Results for 2022',
     icon: '/assets/img_notif.png',
     token: 'ejhfsj'
   },
