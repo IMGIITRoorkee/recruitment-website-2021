@@ -103,7 +103,7 @@ nav {
 .site-cta-button {
     font-family: Nunito Sans;
     font-weight: normal;
-    background: #293B52;
+    background: #333333;
     color: #ffffff;
     border: none;
     padding: 0.5rem 2rem;
@@ -154,7 +154,7 @@ footer {
 }
 
 .site-footer-wrapper .navlink {
-    color: #F8D16C;
+    color: #F55254;
 }
 
 .sociallinks {
