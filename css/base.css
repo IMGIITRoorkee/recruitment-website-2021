@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 /* Default CSS */
 :root {
     font-size: 24px;
@@ -103,7 +104,7 @@ nav {
 .site-cta-button {
     font-family: Nunito Sans;
     font-weight: normal;
-    background: #293B52;
+    background: #333333;
     color: #ffffff;
     border: none;
     padding: 0.5rem 2rem;
@@ -143,7 +144,7 @@ nav {
 footer {
     height: 1em;
     min-height: 3.5em;
-    background: #293B52;
+    background: #121212;
 }
 
 .site-footer-wrapper {
@@ -154,7 +155,7 @@ footer {
 }
 
 .site-footer-wrapper .navlink {
-    color: #F8D16C;
+    color: #F55254;
 }
 
 .sociallinks {
@@ -200,15 +201,14 @@ footer {
 .page-heading {
     position: relative;
     display: inline-block;
-    font-family: Playfair Display;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2em;
     color: #3B3736;
     user-select: none;
 }
 
 .heading-background-box {
-    background: #F8D16C;
+    background: #F55254;
     position: absolute;
     width: 85%;
     height: 65%;
@@ -225,10 +225,11 @@ footer {
 .page-title {
     position: relative;
     display: inline-block;
-    font-family: Playfair Display;
-    font-weight: bold;
-    font-size: 1.25em;
-    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    line-height: 65px;
+    letter-spacing: 0.04em;
+    color: #444444;
     user-select: none;
 }
 

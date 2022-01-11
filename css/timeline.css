@@ -6,7 +6,7 @@
 
 .middle-line .compeleted {
   width: 100%;
-  background: #f8d16c;
+  background: #F5F5F5;
 }
 
 .middle-line .left {
@@ -16,7 +16,7 @@
 
 .upper-events {
   display: grid;
-  grid-template-columns: 1.5fr 1.5fr 1.5fr;
+  grid-template-columns: 1.8fr 1.8fr 1.8fr;
 }
 
 .upper-event {

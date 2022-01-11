@@ -1,3 +1,5 @@
+
+
 .home {
     margin-top: 1.75em;
 }
@@ -37,15 +39,18 @@
 .main-page-heading {
     position: relative;
     display: inline-block;
-    font-family: Playfair Display;
-    font-weight: bold;
-    font-size: 1.83em;
-    color: #3B3736;
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    letter-spacing: 0.04em;
+    color: #444444;
     user-select: none;
 }
 
 .heading-background-box {
-    background: #F8D16C;
+    background: #F55254;
     position: absolute;
     width: 85%;
     height: 65%;
