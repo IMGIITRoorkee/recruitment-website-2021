@@ -169,4 +169,16 @@
         margin-top: 1em;
         font-size: .6em;
     }
+    .about-us-description{
+        font-size: 0.7em;
+    }
+    .about-us-introduction{
+        font-size: 0.7em;
+    }
+    .highlights-description{
+        font-size: 0.8em;
+    }
+    .highlights-heading{
+        font-size: 1.75em;
+    }
 }

@@ -160,3 +160,26 @@
     color: #666666;
     margin-top: 0.5em;
 }
+
+@media screen and (max-width: 600px) {
+    .heading-background-box {
+        left: 27%;
+    }
+    .main-page-heading {
+        font-size: 1.5em;
+        line-height: 55px;
+        letter-spacing: 0em;
+    }
+    .heading-information {
+        font-size: 0.64em;
+    }   
+    .update-text{
+        font-size: 0.64em;
+    }
+    .update-time{
+        font-size: 0.64em;
+    }
+    .why-img-text {
+        font-size: 0.64em;
+    }
+}
