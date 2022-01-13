@@ -158,6 +158,11 @@
   margin-top: 0.5em;
 }
 
+.text-link{
+  text-decoration: none;
+  color:#f55254;
+}
+
 @media screen and (max-width: 600px) {
   .heading-background-box {
     left: 27%;

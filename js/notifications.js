@@ -13,38 +13,16 @@ const notificationArray = [
       'Hey, have you checked out the Winter Developer Assignment? Click here to check them now.',
     icon: '/assets/img_notif.png',
     redirectURL: '/development/',
-    token: 'jhwesndch7b'
+    token: 'sdmnjyhddw'
   },
-  { title: 'IMG Recruitment Update',
-    body: 'Recruitment Talk to held on 18 March, 2022 5:00 PM',
+  {
+    title: 'IMG Recruitment Update',
+    body:
+      'Hey, join us to learn Javascript basics and build a simple game with us. Livestreaming on our youtube channel on 14Jan, 5-7 PM.',
     icon: '/assets/img_notif.png',
-    token: 'R3cruirehjnt'
-  },
-  { title: 'IMG Recruitment Update',
-    body: 'Winter Assignment submission Deadline on 20th March, 2022, Midnight ',
-    icon: '/assets/img_notif.png',
-    token: 'hehbjfnkds'
-  },
-  { title: 'IMG Recruitment Update',
-    body: 'Recruitment Test to be held on 22 March, 2022',
-    icon: '/assets/img_notif.png',
-    token: 'ruwbenjdwe'
-  },
-  { title: 'IMG Recruitment Update',
-    body: 'Register for the developer test on forminator.',
-    icon: '/assets/img_notif.png',
-    token: 'ruwrtybsj'
-  },
-  { title: 'IMG Recruitment Update',
-    body: 'IMG announces Design Assignment for 2022',
-    icon: '/assets/img_notif.png',
-    token: 'bjwdiuww'
-  },
-  { title: 'IMG Recruitment Update',
-    body: 'IMG announces Results for 2022',
-    icon: '/assets/img_notif.png',
-    token: 'ejhfsj'
-  },
+    redirectURL: 'https://youtu.be/y5TXGy-2CiQ',
+    token: 'asdfghdjbc'
+  }
 ]
 
 // Cookies, yumm!
