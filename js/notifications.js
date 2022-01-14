@@ -22,6 +22,14 @@ const notificationArray = [
     icon: '/assets/img_notif.png',
     redirectURL: 'https://youtu.be/y5TXGy-2CiQ',
     token: 'asdfghdjbc'
+  },
+  {
+    title: 'IMG Recruitment Update',
+    body:
+      'Hey, join us to get an overview on UI/UX Design and develop product thinking with us. Livestreaming on our youtube channel on 15Jan, 5-7 PM.',
+    icon: '/assets/img_notif.png',
+    redirectURL: 'https://youtu.be/MtBL-4dPc6c',
+    token: 'qwerty123'
   }
 ]
 
