@@ -13,38 +13,32 @@ const notificationArray = [
       'Hey, have you checked out the Winter Developer Assignment? Click here to check them now.',
     icon: '/assets/img_notif.png',
     redirectURL: '/development/',
-    token: 'jhwesndch7b'
+    token: 'sdmnjyhddw'
   },
-  { title: 'IMG Recruitment Update',
-    body: 'Recruitment Talk to held on 18 March, 2021 5:00 PM',
+  {
+    title: 'IMG Recruitment Update',
+    body:
+      'Hey, join us to learn Javascript basics and build a simple game with us. Livestreaming on our youtube channel on 14Jan, 5-7 PM.',
     icon: '/assets/img_notif.png',
-    token: 'R3cruirehjnt'
+    redirectURL: 'https://youtu.be/y5TXGy-2CiQ',
+    token: 'asdfghdjbc'
   },
-  { title: 'IMG Recruitment Update',
-    body: 'Winter Assignment submission Deadline on 20th March, 2021, Midnight ',
+  {
+    title: 'IMG Recruitment Update',
+    body:
+      'Hey, join us to get an overview on UI/UX Design and develop product thinking with us. Livestreaming on our youtube channel on 15Jan, 5-7 PM.',
     icon: '/assets/img_notif.png',
-    token: 'hehbjfnkds'
+    redirectURL: 'https://youtu.be/MtBL-4dPc6c',
+    token: 'qwerty123'
   },
-  { title: 'IMG Recruitment Update',
-    body: 'Recruitment Test to be held on 22 March, 2021',
+  {
+    title: 'IMG Recruitment Update',
+    body:
+      'Hey, join us to learn Oauth tokens with us. Livestreaming on our youtube channel on 16Jan, 5-7 PM.',
     icon: '/assets/img_notif.png',
-    token: 'ruwbenjdwe'
-  },
-  { title: 'IMG Recruitment Update',
-    body: 'Register for the developer test on forminator.',
-    icon: '/assets/img_notif.png',
-    token: 'ruwrtybsj'
-  },
-  { title: 'IMG Recruitment Update',
-    body: 'IMG announces Design Assignment for 2021',
-    icon: '/assets/img_notif.png',
-    token: 'bjwdiuww'
-  },
-  { title: 'IMG Recruitment Update',
-    body: 'IMG announces Results for 2021',
-    icon: '/assets/img_notif.png',
-    token: 'ejhfsj'
-  },
+    redirectURL: 'https://youtu.be/goaVZx2PcFg',
+    token: 'zbdxnc56'
+  }
 ]
 
 // Cookies, yumm!
