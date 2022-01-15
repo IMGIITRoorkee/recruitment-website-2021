@@ -30,6 +30,14 @@ const notificationArray = [
     icon: '/assets/img_notif.png',
     redirectURL: 'https://youtu.be/MtBL-4dPc6c',
     token: 'qwerty123'
+  },
+  {
+    title: 'IMG Recruitment Update',
+    body:
+      'Hey, join us to learn Oauth tokens with us. Livestreaming on our youtube channel on 16Jan, 5-7 PM.',
+    icon: '/assets/img_notif.png',
+    redirectURL: 'https://youtu.be/goaVZx2PcFg',
+    token: 'zbdxnc56'
   }
 ]
 
