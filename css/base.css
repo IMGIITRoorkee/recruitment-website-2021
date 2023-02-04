@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-color: #EDEEF5;
   width: 100%;
 }
 
@@ -27,11 +28,14 @@ nav {
   height: 1em;
   min-height: 4.5em;
   padding: auto 0;
+  background-color: #EDEEF5 !important;
+  
 }
 
 .site-container {
   max-width: 1000px;
   margin: 0 auto;
+  
 }
 
 .site-container-about {
@@ -44,6 +48,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .site-home-link {
@@ -84,10 +89,16 @@ nav {
 
 .navlink[selected="True"] {
   font-weight: 900;
+  color: #222222;
+}
+.navlink[selected="True"]:hover {
+  font-weight: 900;
+  color: #222222;
 }
 
 .navlink:hover {
   transition-duration: 0.3s;
+  color: #F0141E
 }
 
 #overlay {
@@ -103,8 +114,8 @@ nav {
 .site-cta-button {
   font-family: Nunito Sans;
   font-weight: normal;
-  background: #333333;
-  color: #ffffff;
+  background: #222222;
+  color: #EDEEF5;
   border: none;
   padding: 0.5rem 2rem;
   cursor: pointer;
@@ -115,6 +126,11 @@ nav {
 
 .site-cta-button:hover {
   transition: 0.25s;
+  background: #151515;
+box-shadow: 0px 0px 32px rgba(58, 38, 38, 0.2);
+border-radius: 2px;
+color: #F83048;
+
 }
 
 .site-cta-button:active {
@@ -143,7 +159,7 @@ nav {
 footer {
   height: 1em;
   min-height: 3.5em;
-  background: #121212;
+  background: #222222;
 }
 
 .site-footer-wrapper {
@@ -154,8 +170,10 @@ footer {
 }
 
 .site-footer-wrapper .navlink {
-  color: #f55254;
+  color: #EDEEF5;
 }
+
+
 
 .sociallinks {
   display: grid;
@@ -171,6 +189,10 @@ footer {
   justify-content: center;
 }
 
+.sociallink:hover{
+  transition-duration: 0.3s;
+  color: #F83048
+}
 .sociallink img {
   width: 0.5em;
 }
@@ -187,7 +209,7 @@ footer {
 
 .page-heading-background {
   height: 7.5em;
-  background: #e7e7e7;
+  background: #EDEEF5;
   background: url("/assets/banner.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -200,19 +222,23 @@ footer {
 .page-heading {
   position: relative;
   display: inline-block;
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-  color: #3b3736;
+  font-family: "marvelFont", sans-serif;
+  font-weight: bold;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  letter-spacing: 0.04em;
+  color: #EDEEF5;
   user-select: none;
 }
 
 .heading-background-box {
-  background: #f55254;
+  background: #F0141E;
   position: absolute;
-  width: 85%;
-  height: 65%;
-  left: 30%;
-  bottom: 35%;
+  width: 110%;
+  height: 71%;
+  left: -5%;
+  bottom: 25%;
   z-index: 1;
 }
 
@@ -224,11 +250,13 @@ footer {
 .page-title {
   position: relative;
   display: inline-block;
-  font-family: "Open Sans", sans-serif;
+  font-family: "marvelFont", sans-serif;
+  font-weight: bold;
+  font-weight: 400;
   font-size: 48px;
   line-height: 65px;
   letter-spacing: 0.04em;
-  color: #444444;
+  color: #EDEEF5;
   user-select: none;
 }
 
@@ -243,7 +271,7 @@ footer {
 }
 
 .process-description-box {
-  background: #f7f7f7;
+  background: #DEE0E9;
   padding: 1.25em 2em;
   margin-bottom: 2em;
 }
@@ -380,10 +408,11 @@ footer {
   .page-heading {
     font-size: 1.5em;
   }
-  #first {
-    display: none;
-  }
-  #second{
-    display: none;
-  }
+}
+
+@font-face {
+
+  font-family: 'marvelFont' ;
+  src: url('../assets/Marvel-Regular.ttf') format('truetype');
+
 }

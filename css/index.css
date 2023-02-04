@@ -1,13 +1,14 @@
 .home {
-  margin-top: 1.75em;
+  margin-top: 0em;
+  background-color: #EDEEF5;
 }
 
 .main-container {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas:
-    "illustration design"
-    "illustration development";
+    "design illustration"
+    "development illustration";
   min-height: 25em;
   grid-column-gap: 4em;
 }
@@ -26,6 +27,9 @@
   align-self: center;
 }
 
+.coloured-container {
+  background-color: #EDEEF5;
+}
 .illustration-container {
   max-width: 75%;
   background: url("/assets/main_illustration.png");
@@ -37,18 +41,28 @@
 .main-page-heading {
   position: relative;
   display: inline-block;
-  font-family: "Open Sans", sans-serif;
-  font-style: bold;
-  font-weight: 600;
+  font-family: "marvelFont", sans-serif;
+  font-weight: bold;
+  font-weight: 400;
   font-size: 48px;
   line-height: 65px;
   letter-spacing: 0.04em;
-  color: #444444;
+  color: #EDEEF5;
   user-select: none;
 }
 
 .heading-background-box {
-  background: #f55254;
+  background: #F0141E;
+  position: absolute;
+  width: 110%;
+  height: 71%;
+  left: -5%;
+  bottom: 25%;
+  z-index: 1;
+}
+
+.heading-background-box-coloured {
+  background: #EDEEF5;
   position: absolute;
   width: 85%;
   height: 65%;
@@ -67,7 +81,17 @@
   font-weight: normal;
   font-size: 0.67em;
   line-height: 1.1rem;
-  color: #878787;
+  color: #222222;
+  margin-top: 0.7em;
+  margin-bottom: 1.25em;
+}
+
+.heading-information-coloured {
+  font-family: Nunito Sans;
+  font-weight: normal;
+  font-size: 0.67em;
+  line-height: 1.1rem;
+  color: #F2F2F2;
   margin-top: 0.7em;
   margin-bottom: 1.25em;
 }
@@ -100,7 +124,7 @@
   font-weight: normal;
   font-size: 0.75em;
   line-height: 1.1rem;
-  color: #878787;
+  color: #202020;
   margin-top: 1em;
   margin-bottom: 1.625em;
 }
@@ -134,11 +158,11 @@
 }
 
 .update-item:nth-child(odd) {
-  background: #f7f7f7;
+  background: #DEE0E9;
 }
 
 .update-item:nth-child(even) {
-  background: #ffffff;
+  background: #E7E9EF;
 }
 
 .update-time {
@@ -154,7 +178,7 @@
   font-weight: normal;
   font-size: 0.67em;
   line-height: 1rem;
-  color: #666666;
+  color: #202020;
   margin-top: 0.5em;
 }
 
@@ -165,7 +189,7 @@
 
 @media screen and (max-width: 600px) {
   .heading-background-box {
-    left: 27%;
+    left: -5%;
   }
   .main-page-heading {
     font-size: 1.5em;
@@ -185,3 +209,11 @@
     font-size: 0.64em;
   }
 }
+
+@font-face {
+
+  font-family: 'marvelFont' ;
+  src: url('../assets/Marvel-Regular.ttf') format('truetype');
+
+}
+
