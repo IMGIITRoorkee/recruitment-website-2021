@@ -98,7 +98,7 @@ nav {
 
 .navlink:hover {
   transition-duration: 0.3s;
-  color: #F0141E
+  color: #CA2028
 }
 
 #overlay {
@@ -233,7 +233,7 @@ footer {
 }
 
 .heading-background-box {
-  background: #F0141E;
+  background: #CA2028;
   position: absolute;
   width: 110%;
   height: 71%;
