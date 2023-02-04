@@ -33,15 +33,15 @@
 .event-ongoing {
     height:80px;
     width:5px;
-    background: rgb(248,209,108);
-    background: linear-gradient(180deg, rgba(248,209,108,1) 0%, rgba(248,209,108,1) 60%, rgba(221,221,221,1) 60%, rgba(221,221,221,1) 100%);
+    background: rgb(34,34,34);
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(34,34,34,1) 60%, rgba(221,221,221,1) 60%, rgba(221,221,221,1) 100%);
     display:block;
     margin: 0 auto;
 }
 .event-complete {
     height: 80px;
     width:5px;
-    background-color: #F55254;
+    background-color: #222222;
     display:block;
     margin: 0 auto;
 }

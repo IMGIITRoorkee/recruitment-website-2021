@@ -4,7 +4,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    color: #666666;
+    color: #222222;
     padding-top: 3.1em;
 }
 
@@ -18,7 +18,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    color: #666666;
+    color: #222222;
     padding-top:.45em
 }
 
@@ -39,7 +39,7 @@
     font-weight: 900;
     font-size: 2em;
     line-height: 50px;
-    color: #F55254;
+    color: #F0141E;
 }
 
 .highlights-description {
@@ -48,7 +48,7 @@
     font-weight: normal;
     font-size: 1em;
     line-height: 33px;
-    color: #666666;
+    color: #222222;
 }
 
 .questions-set {
@@ -66,7 +66,7 @@
     font-weight: 900;
     font-size: 1.5em;
     line-height: 1em;
-    color: #F55254;
+    color: #F0141E;
     margin-top: .75em;
     margin-right: .2em;
     margin-left: .2em;
@@ -78,7 +78,7 @@
     font-weight: normal;
     font-size: .45em;
     line-height: 1.5em;
-    color: #293B52;
+    color: #202020;
     text-align: right;
 }
 
@@ -88,7 +88,7 @@
     font-weight: 900;
     font-size: 1.5em;
     line-height: 1em;
-    color: #F55254;
+    color: #F0141E;
     margin-top: .75em;
     text-align: center;
     margin-bottom: .74em;
@@ -100,7 +100,7 @@
     font-weight: 900;
     font-size: .9em;
     line-height: 1.25em;
-    color: #4C4C4C;
+    color: #202020;
     text-align: center;
 }
 

@@ -129,7 +129,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         display: grid;
     }
     .navlink[selected='True'] {
-        color: #F55254;
+        color: #F0141E;
     }
 }
 
