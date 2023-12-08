@@ -30,34 +30,46 @@
 .coloured-container {
   background-color: #EDEEF5;
 }
+
 .illustration-container {
-  max-width: 75%;
-  background: url("/assets/main_illustration.png");
+  max-width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #E2E6EF;
+  height: 95%;
+  margin-top: 8%;
+  padding: 0 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.illustration-container-image {
+  width: 120%;
+  height: auto;
 }
 
 .main-page-heading {
   position: relative;
   display: inline-block;
-  font-family: "marvelFont", sans-serif;
+  font-family: "fredoka", sans-serif;
   font-weight: bold;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 65px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
   letter-spacing: 0.04em;
   color: #EDEEF5;
   user-select: none;
 }
 
 .heading-background-box {
-  background: #CA2028;
+  background: #254F73;
   position: absolute;
   width: 110%;
-  height: 71%;
+  height: 110%;
   left: -5%;
-  bottom: 25%;
+  bottom: -5%;
   z-index: 1;
 }
 
@@ -212,8 +224,14 @@
 
 @font-face {
 
-  font-family: 'marvelFont' ;
-  src: url('../assets/Marvel-Regular.ttf') format('truetype');
+  font-family: 'fredoka' ;
+  src: url('../assets/Fredoka.ttf') format('truetype');
 
 }
 
+@font-face {
+
+  font-family: 'DMSans' ;
+  src: url('../assets/DMSans.ttf') format('truetype');
+
+}
