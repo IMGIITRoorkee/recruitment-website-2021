@@ -98,7 +98,7 @@ nav {
 
 .navlink:hover {
   transition-duration: 0.3s;
-  color: #CA2028
+  color: #254F73
 }
 
 #overlay {
@@ -112,24 +112,25 @@ nav {
 }
 
 .site-cta-button {
-  font-family: Nunito Sans;
+  font-family: DMSans;
   font-weight: normal;
-  background: #222222;
-  color: #EDEEF5;
+  background: #EAE2D7;
+  color: #070707;
   border: none;
   padding: 0.5rem 2rem;
   cursor: pointer;
   font-size: 0.67rem;
+  font-weight: 500;
   user-select: none;
   border-radius: 2px;
 }
 
 .site-cta-button:hover {
   transition: 0.25s;
-  background: #151515;
+  background: #EAE2D7;
 box-shadow: 0px 0px 32px rgba(58, 38, 38, 0.2);
 border-radius: 2px;
-color: #F83048;
+color: #254F73;
 
 }
 
@@ -222,23 +223,23 @@ footer {
 .page-heading {
   position: relative;
   display: inline-block;
-  font-family: "marvelFont", sans-serif;
+  font-family: "fredoka", sans-serif;
   font-weight: bold;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 65px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
   letter-spacing: 0.04em;
   color: #EDEEF5;
   user-select: none;
 }
 
 .heading-background-box {
-  background: #CA2028;
+  background: #254F73;
   position: absolute;
   width: 110%;
-  height: 71%;
+  height: 110%;
   left: -5%;
-  bottom: 25%;
+  bottom: -5%;
   z-index: 1;
 }
 
@@ -250,11 +251,11 @@ footer {
 .page-title {
   position: relative;
   display: inline-block;
-  font-family: "marvelFont", sans-serif;
+  font-family: "fredoka", sans-serif;
   font-weight: bold;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 65px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
   letter-spacing: 0.04em;
   color: #EDEEF5;
   user-select: none;
@@ -412,7 +413,14 @@ footer {
 
 @font-face {
 
-  font-family: 'marvelFont' ;
-  src: url('../assets/Marvel-Regular.ttf') format('truetype');
+  font-family: 'fredoka' ;
+  src: url('../assets/Fredoka.ttf') format('truetype');
+
+}
+
+@font-face {
+
+  font-family: 'DMSans' ;
+  src: url('../assets/DMSans.ttf') format('truetype');
 
 }
