@@ -5,7 +5,7 @@
 }
 
 .middle-line .compeleted {
-  width: 10%;
+  width: 27%;
   background: #222222;
 }
 
@@ -35,27 +35,27 @@
   align-items: center;
 }
 
-.lower-event[event='1'] {
+.lower-event[event="1"] {
   display: flex;
   justify-content: center;
 }
 
-.upper-event[event='2'] {
+.upper-event[event="2"] {
   display: flex;
   justify-content: center;
 }
 
-.lower-event[event='3'] {
+.lower-event[event="3"] {
   display: flex;
   justify-content: flex-end;
 }
 
-.upper-event[event='4'] {
+.upper-event[event="4"] {
   display: flex;
   justify-content: center;
 }
 
-.lower-event[event='5'] {
+.lower-event[event="5"] {
   display: flex;
   justify-content: flex-end;
 }
