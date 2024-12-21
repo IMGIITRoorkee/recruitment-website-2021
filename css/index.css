@@ -1,6 +1,6 @@
 .home {
   margin-top: 0em;
-  background-color: #EDEEF5;
+ // background-color: #EDEEF5;
 }
 
 .main-container {
@@ -28,7 +28,7 @@
 }
 
 .coloured-container {
-  background-color: #EDEEF5;
+ // background-color: #EDEEF5;
 }
 
 .illustration-container {
@@ -36,7 +36,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #E2E6EF;
+  //background-color: #E2E6EF;
   height: 95%;
   margin-top: 8%;
   padding: 0 15%;
@@ -53,7 +53,7 @@
 .main-page-heading {
   position: relative;
   display: inline-block;
-  font-family: "fredoka", sans-serif;
+  font-family: "batmfa", sans-serif;
   font-weight: bold;
   font-weight: 600;
   font-size: 40px;
@@ -64,7 +64,7 @@
 }
 
 .heading-background-box {
-  background: #254F73;
+  /* background: #254F73; */
   position: absolute;
   width: 110%;
   height: 110%;
@@ -74,7 +74,7 @@
 }
 
 .heading-background-box-coloured {
-  background: #EDEEF5;
+ // background: #EDEEF5;
   position: absolute;
   width: 85%;
   height: 65%;
@@ -86,6 +86,7 @@
 .heading-text {
   position: relative;
   z-index: 2;
+  color: #f2c011
 }
 
 .heading-information {
@@ -132,11 +133,11 @@
 }
 
 .why-img-text {
-  font-family: Nunito Sans;
+  font-family: Inter;
   font-weight: normal;
   font-size: 0.75em;
   line-height: 1.1rem;
-  color: #202020;
+ 
   margin-top: 1em;
   margin-bottom: 1.625em;
 }
@@ -170,27 +171,27 @@
 }
 
 .update-item:nth-child(odd) {
-  background: #DEE0E9;
+  background: #566978;
 }
 
 .update-item:nth-child(even) {
-  background: #E7E9EF;
+  background: #65727d;
 }
 
 .update-time {
-  font-family: Nunito Sans;
+  font-family: Inter;
   font-weight: bold;
   font-size: 0.67em;
   line-height: 0.75rem;
-  color: #9e9e9e;
+  color: #f2c011;
 }
 
 .update-text {
-  font-family: Nunito Sans;
+  font-family: Inter;
   font-weight: normal;
   font-size: 0.67em;
   line-height: 1rem;
-  color: #202020;
+  color: #ffffff;
   margin-top: 0.5em;
 }
 
@@ -234,4 +235,13 @@
   font-family: 'DMSans' ;
   src: url('../assets/DMSans.ttf') format('truetype');
 
+}
+
+.bottom-right{
+  
+   position:fixed; 
+  bottom:0;
+  right:0;
+  height:20rem;
+    z-index: 1000;
 }

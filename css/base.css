@@ -9,14 +9,17 @@
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: normal;
+  
 }
 
 body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #EDEEF5;
+  background-color: #13181c;
   width: 100%;
+  color:#ffffff;
+
 }
 
 main {
@@ -33,7 +36,7 @@ nav {
 }
 
 .site-container {
-  max-width: 1000px;
+  max-width: 1300px;
   margin: 0 auto;
   
 }
@@ -112,9 +115,9 @@ nav {
 }
 
 .site-cta-button {
-  font-family: DMSans;
+  font-family: InriaSans;
   font-weight: normal;
-  background: #EAE2D7;
+  background: #ffdd61;
   color: #070707;
   border: none;
   padding: 0.5rem 2rem;
@@ -160,7 +163,7 @@ color: #254F73;
 footer {
   height: 1em;
   min-height: 3.5em;
-  background: #222222;
+  background-color: #13181c;
 }
 
 .site-footer-wrapper {
@@ -234,7 +237,7 @@ footer {
 }
 
 .heading-background-box {
-  background: #254F73;
+ // background: #254F73;
   position: absolute;
   width: 110%;
   height: 110%;
@@ -246,6 +249,8 @@ footer {
 .heading-text {
   position: relative;
   z-index: 2;
+ 
+  
 }
 
 .page-title {
@@ -424,3 +429,10 @@ footer {
   src: url('../assets/DMSans.ttf') format('truetype');
 
 }
+@font-face {
+
+  font-family: 'batmfa' ;
+  src: url('../assets/batmfa.ttf') format('truetype');
+
+}
+
