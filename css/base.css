@@ -6,7 +6,7 @@
 /* Default CSS */
 :root {
   font-size: 24px;
-  font-family: Nunito Sans;
+  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   
@@ -31,14 +31,16 @@ nav {
   height: 1em;
   min-height: 4.5em;
   padding: auto 0;
-  background-color: #EDEEF5 !important;
+  background-color: #13181C !important;
   
 }
 
 .site-container {
+  position: relative;
   max-width: 1300px;
   margin: 0 auto;
-  
+  z-index: 3;
+
 }
 
 .site-container-about {
@@ -51,7 +53,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+  gap: 2.1em;
 }
 
 .site-home-link {
@@ -68,35 +70,36 @@ nav {
 }
 
 .site-logo-text {
+  font-family: 'batman-forever';
   font-weight: bold;
   font-size: 0.75em;
   line-height: 1rem;
   margin-left: 1em;
-  color: #000000;
+  color: #FFDD61;
 }
 
 .navlinks-horizontal {
   display: grid;
-  grid-column-gap: 1.8em;
+  grid-column-gap: 2.1em;
   grid-auto-flow: column;
 }
 
 .navlink {
-  font-size: 0.5em;
+  font-family: 'batman-forever';
+  font-size: 0.675em;
   line-height: 0.67rem;
-  color: #3b3736;
+  color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
   user-select: none;
 }
 
 .navlink[selected="True"] {
-  font-weight: 900;
-  color: #222222;
+  color: #FFFFFF;
 }
 .navlink[selected="True"]:hover {
   font-weight: 900;
-  color: #222222;
+  color: #FFFFFF;
 }
 
 .navlink:hover {
@@ -115,15 +118,14 @@ nav {
 }
 
 .site-cta-button {
-  font-family: InriaSans;
-  font-weight: normal;
-  background: #ffdd61;
-  color: #070707;
+  font-family: 'Inria Sans';
+  font-weight: bold;
+  background: #FFDD61;
+  color: #13181C;
   border: none;
   padding: 0.5rem 2rem;
   cursor: pointer;
   font-size: 0.67rem;
-  font-weight: 500;
   user-select: none;
   border-radius: 2px;
 }
@@ -131,9 +133,9 @@ nav {
 .site-cta-button:hover {
   transition: 0.25s;
   background: #EAE2D7;
-box-shadow: 0px 0px 32px rgba(58, 38, 38, 0.2);
-border-radius: 2px;
-color: #254F73;
+  box-shadow: 0px 0px 32px rgba(58, 38, 38, 0.2);
+  border-radius: 2px;
+  color: #254F73;
 
 }
 
@@ -164,20 +166,20 @@ footer {
   height: 1em;
   min-height: 3.5em;
   background-color: #13181c;
+  z-index: 2;
+  width:70%;
 }
 
 .site-footer-wrapper {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .site-footer-wrapper .navlink {
   color: #EDEEF5;
 }
-
-
 
 .sociallinks {
   display: grid;
@@ -226,8 +228,8 @@ footer {
 .page-heading {
   position: relative;
   display: inline-block;
-  font-family: "fredoka", sans-serif;
-  font-weight: bold;
+  font-family: "batman-forever", sans-serif;
+  font-weight: Regular;
   font-weight: 600;
   font-size: 40px;
   line-height: 48px;
@@ -237,7 +239,7 @@ footer {
 }
 
 .heading-background-box {
- // background: #254F73;
+  background: #13181C;
   position: absolute;
   width: 110%;
   height: 110%;
@@ -421,6 +423,11 @@ footer {
   font-family: 'fredoka' ;
   src: url('../assets/Fredoka.ttf') format('truetype');
 
+}
+
+@font-face {
+	font-family: 'batman-forever';
+	src: url('../assets/batmanforever.ttf') format('truetype');
 }
 
 @font-face {

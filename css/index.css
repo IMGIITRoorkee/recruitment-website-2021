@@ -28,7 +28,7 @@
 }
 
 .coloured-container {
- // background-color: #EDEEF5;
+ // background-color: #13181C;
 }
 
 .illustration-container {
@@ -36,9 +36,9 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  //background-color: #E2E6EF;
+  background-color: #13181C;
   height: 95%;
-  margin-top: 8%;
+  margin-top: 0%;
   padding: 0 15%;
   display: flex;
   justify-content: center;
@@ -53,18 +53,18 @@
 .main-page-heading {
   position: relative;
   display: inline-block;
-  font-family: "batmfa", sans-serif;
-  font-weight: bold;
+  font-family: "batman-forever", sans-serif;
+  font-weight: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 1.65em;
   line-height: 48px;
   letter-spacing: 0.04em;
-  color: #EDEEF5;
+  color: #F2C011;
   user-select: none;
 }
 
 .heading-background-box {
-  /* background: #254F73; */
+  background: #13181C;
   position: absolute;
   width: 110%;
   height: 110%;
@@ -90,11 +90,11 @@
 }
 
 .heading-information {
-  font-family: Nunito Sans;
+  font-family: 'Inter';
   font-weight: normal;
-  font-size: 0.67em;
-  line-height: 1.1rem;
-  color: #222222;
+  font-size: 0.75em;
+  line-height: 165%;
+  color: #FFFFFF;
   margin-top: 0.7em;
   margin-bottom: 1.25em;
 }
@@ -200,18 +200,31 @@
   color:#f55254;
 }
 
+.bottom-batman-wrapper{
+	align-self: flex-end;
+	justify-self: flex-end;	
+	margin-top: -1360px;
+	z-index:1;
+}
+
 @media screen and (max-width: 600px) {
   .heading-background-box {
     left: -5%;
   }
   .main-page-heading {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 55px;
     letter-spacing: 0em;
   }
-  .heading-information {
-    font-size: 0.64em;
+
+  .bottom-batman-wrapper{
+	display: none;
   }
+
+  .heading-information {
+    font-size: 0.5em;
+  }
+
   .update-text {
     font-size: 0.64em;
   }
