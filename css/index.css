@@ -186,6 +186,12 @@
   color: #f2c011;
 }
 
+.update-item:hover{
+  cursor: default;
+  text-decoration: underline;
+  text-decoration-color:#f2c011 ;
+}
+
 .update-text {
   font-family: Inter;
   font-weight: normal;
