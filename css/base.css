@@ -6,7 +6,7 @@
 /* Default CSS */
 :root {
   font-size: 24px;
-  font-family: Inter;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   
@@ -96,6 +96,7 @@ nav {
 }
 
 .navlink[selected="True"] {
+   font-weight: 900;
   color: #FFFFFF;
 }
 .navlink[selected="True"]:hover {
@@ -105,7 +106,7 @@ nav {
 
 .navlink:hover {
   transition-duration: 0.3s;
-  color: #254F73
+  color: #FFDD61;
 }
 
 #overlay {
@@ -244,7 +245,7 @@ footer {
 }
 
 .heading-background-box {
- 
+  /* background: #13181C; */
   position: absolute;
   width: 110%;
   height: 110%;
@@ -254,6 +255,8 @@ footer {
 }
 
 .heading-text {
+  font-family: "batman-forever", sans-serif;
+  color: #f2c011;
   position: relative;
   z-index: 2;
    color: #FFDD61;

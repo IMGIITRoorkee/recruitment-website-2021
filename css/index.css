@@ -74,7 +74,7 @@
 }
 
 .heading-background-box-coloured {
- // background: #EDEEF5;
+ /* // background: #EDEEF5; */
   position: absolute;
   width: 85%;
   height: 65%;
@@ -86,7 +86,7 @@
 .heading-text {
   position: relative;
   z-index: 2;
-  color: #f2c011
+  color: #f2c011;
 }
 
 .heading-information {
@@ -171,11 +171,11 @@
 }
 
 .update-item:nth-child(odd) {
-  background: #566978;
+  background: #1E2428;
 }
 
 .update-item:nth-child(even) {
-  background: #65727d;
+  background: #2C3439;
 }
 
 .update-time {
