@@ -1,6 +1,6 @@
 .home {
   margin-top: 0em;
- // background-color: #EDEEF5;
+
 }
 
 .main-container {
@@ -28,7 +28,7 @@
 }
 
 .coloured-container {
- // background-color: #13181C;
+
 }
 
 .illustration-container {
@@ -233,6 +233,11 @@
   }
   .why-img-text {
     font-size: 0.64em;
+  }
+}
+@media screen and (max-width:1000px){
+  .bottom-batman-wrapper{
+    display:none;
   }
 }
 

@@ -9,10 +9,13 @@
 
 @media screen and (max-width: 600px) {
     .navlinks {
-        display: none;
+        
     }
     .site-footer-wrapper {
         justify-content: space-around;
+        font-size : 0.64rem;
+        font-family: Inter;
+        color: ffffff;
     }
     .sociallink img {
         width: 0.75em;

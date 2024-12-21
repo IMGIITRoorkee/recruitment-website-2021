@@ -9,7 +9,7 @@
     font-weight: bold;
     font-size: 0.65rem;
     line-height: 1rem;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -18,7 +18,7 @@
     font-weight: normal;
     font-size: 0.65rem;
     line-height: 1rem;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -33,15 +33,15 @@
 .event-ongoing {
     height:80px;
     width:5px;
-    background: rgb(34,34,34);
-    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(34,34,34,1) 60%, rgba(221,221,221,1) 60%, rgba(221,221,221,1) 100%);
+    background: #dddddd;
+    background: linear-gradient(180deg, #55BCBF 0%, #55BCBF 60%, rgba(221,221,221,1) 60%, rgba(221,221,221,1) 100%);
     display:block;
     margin: 0 auto;
 }
 .event-complete {
     height: 80px;
     width:5px;
-    background-color: #222222;
+    background-color: #55BCBF;
     display:block;
     margin: 0 auto;
 }

@@ -82,6 +82,7 @@ nav {
   display: grid;
   grid-column-gap: 2.1em;
   grid-auto-flow: column;
+  color:#ffffff;
 }
 
 .navlink {
@@ -175,6 +176,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  font-family : Inter;
 }
 
 .site-footer-wrapper .navlink {
