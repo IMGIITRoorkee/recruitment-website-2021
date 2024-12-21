@@ -19,6 +19,7 @@ body {
   background-color: #13181c;
   width: 100%;
   color:#ffffff;
+  overflow-x:scroll;
 
 }
 
@@ -177,7 +178,7 @@ footer {
   width:100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-family : Inter;
   position:absolute;
   z-index:3;
