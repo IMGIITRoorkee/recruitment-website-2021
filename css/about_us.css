@@ -1,10 +1,10 @@
 .about-us-introduction {
-    font-family: Nunito Sans;
+    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    color: #222222;
+   
     padding-top: 3.1em;
 }
 
@@ -13,12 +13,12 @@
 }
 
 .about-us-description {
-    font-family: Nunito Sans;
+    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    color: #222222;
+   
     padding-top:.45em
 }
 
@@ -34,7 +34,7 @@
 }
 
 .highlights-heading {
-    font-family: Nunito Sans;
+    font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 2em;
@@ -43,12 +43,12 @@
 }
 
 .highlights-description {
-    font-family: Nunito Sans;
+    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 1em;
     line-height: 33px;
-    color: #222222;
+    /* color: #222222; */
 }
 
 .questions-set {
@@ -61,7 +61,7 @@
 }
 
 .question-items {
-    font-family: Nunito Sans;
+    font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 1.5em;
