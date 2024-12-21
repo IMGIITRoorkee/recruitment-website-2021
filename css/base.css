@@ -44,7 +44,7 @@ nav {
 }
 
 .site-container-about {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -177,7 +177,7 @@ footer {
   width:100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-family : Inter;
   position:absolute;
   z-index:3;
@@ -419,6 +419,11 @@ footer {
   color: #FFFFFF;
 }
 
+.made-with-heart{
+	font-family: 'Space Grotesk';
+	font-size: 0.7em;
+}
+
 @media screen and (max-width: 450px) {
   .page-title {
     font-size: 1.5rem;
@@ -428,6 +433,11 @@ footer {
   .page-heading {
     font-size: 1.5em;
   }
+
+	.site-footer-wrapper{
+		flex-direction: column;
+		gap:15px;
+	}
 }
 
 @font-face {
