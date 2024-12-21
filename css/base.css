@@ -272,7 +272,7 @@ footer {
 }
 
 .page-subtitle {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   font-weight: normal;
   font-size: 0.75em;
   line-height: 1.375rem;
@@ -282,7 +282,7 @@ footer {
 }
 
 .process-description-box {
-  background: #DEE0E9;
+  background: #305D60;
   padding: 1.25em 2em;
   margin-bottom: 2em;
 }
@@ -291,21 +291,21 @@ footer {
 }
 
 .process-description-heading {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   font-weight: 700;
   font-size: 1em;
   line-height: 1.4rem;
-  color: #000000;
+  color: #FFFFFF;
   align-self: center;
 }
 
 .process-description-text {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   margin-top: 1.55em;
   font-weight: normal;
   font-size: 0.67em;
   line-height: 1.1rem;
-  color: #666666;
+  color: #FFFFFF;
 }
 
 .process-choice {
@@ -318,6 +318,7 @@ footer {
 }
 
 .process-choice-actions-text {
+  color: #FFFFFF;
   text-decoration: none;
   position: relative;
   top: 2px;
@@ -350,17 +351,17 @@ footer {
 }
 
 .process-choices-description .process-choice-heading {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: bold;
   font-size: 0.83em;
   line-height: 1.4rem;
-  color: #000000;
+  color: #FFFFFF;
   margin-top: 1.25em;
 }
 
 .process-choices-description .process-choice-text {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: normal;
   font-size: 0.67em;
@@ -371,7 +372,7 @@ footer {
 }
 
 .process-choices-description .process-choice-or {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: bold;
   font-size: 0.75em;
@@ -395,12 +396,12 @@ footer {
 }
 
 .process-choices-description .process-choice-actions {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: bold;
   font-size: 0.67em;
   line-height: 1rem;
-  color: #000000;
+  color: #000000;	
   margin-top: 1em;
 }
 
@@ -408,6 +409,7 @@ footer {
   width: 1em;
   vertical-align: middle;
   margin-right: 0.6em;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 450px) {
@@ -439,6 +441,12 @@ footer {
   src: url('../assets/DMSans.ttf') format('truetype');
 
 }
+
+@font-face {
+	font-family: 'Space Grotesk';
+	src: url(../assets/space_grotesk.ttf) format('truetype');
+}
+
 @font-face {
 
   font-family: 'batmfa' ;

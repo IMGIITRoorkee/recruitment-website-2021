@@ -1,5 +1,5 @@
 .about-us-introduction {
-    font-family: Inter;
+    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -13,7 +13,7 @@
 }
 
 .about-us-description {
-    font-family: Inter;
+    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -34,7 +34,7 @@
 }
 
 .highlights-heading {
-    font-family: Inter;
+    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 900;
     font-size: 2em;
@@ -43,7 +43,7 @@
 }
 
 .highlights-description {
-    font-family: Inter;
+    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: normal;
     font-size: 1em;
@@ -61,7 +61,7 @@
 }
 
 .question-items {
-    font-family: Inter;
+    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 900;
     font-size: 1.5em;
@@ -78,7 +78,7 @@
     font-weight: normal;
     font-size: .45em;
     line-height: 1.5em;
-    color: #202020;
+    color: #FFFFFF;
     text-align: right;
 }
 
@@ -100,7 +100,7 @@
     font-weight: 900;
     font-size: .9em;
     line-height: 1.25em;
-    color: #202020;
+    color: #FFFFFF;
     text-align: center;
 }
 
