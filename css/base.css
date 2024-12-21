@@ -6,17 +6,20 @@
 /* Default CSS */
 :root {
   font-size: 24px;
-  font-family: Nunito Sans;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
+  
 }
 
 body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #EDEEF5;
+  background-color: #13181c;
   width: 100%;
+  color:#ffffff;
+
 }
 
 main {
@@ -28,14 +31,16 @@ nav {
   height: 1em;
   min-height: 4.5em;
   padding: auto 0;
-  background-color: #EDEEF5 !important;
+  background-color: #13181C !important;
   
 }
 
 .site-container {
-  max-width: 1000px;
+  position: relative;
+  max-width: 1300px;
   margin: 0 auto;
-  
+  z-index: 3;
+
 }
 
 .site-container-about {
@@ -48,7 +53,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+  gap: 2.1em;
 }
 
 .site-home-link {
@@ -65,40 +70,43 @@ nav {
 }
 
 .site-logo-text {
+  font-family: 'batman-forever';
   font-weight: bold;
   font-size: 0.75em;
   line-height: 1rem;
   margin-left: 1em;
-  color: #000000;
+  color: #FFDD61;
 }
 
 .navlinks-horizontal {
   display: grid;
-  grid-column-gap: 1.8em;
+  grid-column-gap: 2.1em;
   grid-auto-flow: column;
+  color:#ffffff;
 }
 
 .navlink {
-  font-size: 0.5em;
+  font-family: 'batman-forever';
+  font-size: 0.675em;
   line-height: 0.67rem;
-  color: #3b3736;
+  color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
   user-select: none;
 }
 
 .navlink[selected="True"] {
-  font-weight: 900;
-  color: #222222;
+   font-weight: 900;
+  color: #FFFFFF;
 }
 .navlink[selected="True"]:hover {
   font-weight: 900;
-  color: #222222;
+  color: #FFFFFF;
 }
 
 .navlink:hover {
   transition-duration: 0.3s;
-  color: #254F73
+  color: #FFDD61;
 }
 
 #overlay {
@@ -112,15 +120,14 @@ nav {
 }
 
 .site-cta-button {
-  font-family: DMSans;
-  font-weight: normal;
-  background: #EAE2D7;
-  color: #070707;
+  font-family: 'Space Grotesk';
+  font-weight: bold;
+  background: #FFDD61;
+  color: #13181C;
   border: none;
   padding: 0.5rem 2rem;
   cursor: pointer;
   font-size: 0.67rem;
-  font-weight: 500;
   user-select: none;
   border-radius: 2px;
 }
@@ -128,9 +135,9 @@ nav {
 .site-cta-button:hover {
   transition: 0.25s;
   background: #EAE2D7;
-box-shadow: 0px 0px 32px rgba(58, 38, 38, 0.2);
-border-radius: 2px;
-color: #254F73;
+  box-shadow: 0px 0px 32px rgba(58, 38, 38, 0.2);
+  border-radius: 2px;
+  color: #254F73;
 
 }
 
@@ -160,21 +167,25 @@ color: #254F73;
 footer {
   height: 1em;
   min-height: 3.5em;
-  background: #222222;
+  background-color: #13181c;
+  z-index: 0;
+  width:100%;
 }
 
 .site-footer-wrapper {
   height: 100%;
+  width:100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  font-family : Inter;
+  position:absolute;
+  z-index:3;
 }
 
 .site-footer-wrapper .navlink {
   color: #EDEEF5;
 }
-
-
 
 .sociallinks {
   display: grid;
@@ -211,7 +222,7 @@ footer {
 .page-heading-background {
   height: 7.5em;
   background: #EDEEF5;
-  background: url("/assets/banner.png");
+  background: url("/assets/aboutusbanner.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -223,8 +234,8 @@ footer {
 .page-heading {
   position: relative;
   display: inline-block;
-  font-family: "fredoka", sans-serif;
-  font-weight: bold;
+  font-family: "batman-forever", sans-serif;
+  font-weight: Regular;
   font-weight: 600;
   font-size: 40px;
   line-height: 48px;
@@ -234,7 +245,7 @@ footer {
 }
 
 .heading-background-box {
-  background: #254F73;
+  /* background: #13181C; */
   position: absolute;
   width: 110%;
   height: 110%;
@@ -244,8 +255,14 @@ footer {
 }
 
 .heading-text {
+  font-family: "batman-forever", sans-serif;
+  color: #f2c011;
   position: relative;
   z-index: 2;
+   color: #FFDD61;
+   font-family:'batmfa' ,Inter
+
+  
 }
 
 .page-title {
@@ -262,7 +279,7 @@ footer {
 }
 
 .page-subtitle {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   font-weight: normal;
   font-size: 0.75em;
   line-height: 1.375rem;
@@ -272,7 +289,7 @@ footer {
 }
 
 .process-description-box {
-  background: #DEE0E9;
+  background: #305D60;
   padding: 1.25em 2em;
   margin-bottom: 2em;
 }
@@ -281,21 +298,21 @@ footer {
 }
 
 .process-description-heading {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   font-weight: 700;
   font-size: 1em;
   line-height: 1.4rem;
-  color: #000000;
+  color: #FFFFFF;
   align-self: center;
 }
 
 .process-description-text {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   margin-top: 1.55em;
   font-weight: normal;
   font-size: 0.67em;
   line-height: 1.1rem;
-  color: #666666;
+  color: #FFFFFF;
 }
 
 .process-choice {
@@ -308,6 +325,7 @@ footer {
 }
 
 .process-choice-actions-text {
+  color: #FFFFFF;
   text-decoration: none;
   position: relative;
   top: 2px;
@@ -340,17 +358,17 @@ footer {
 }
 
 .process-choices-description .process-choice-heading {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: bold;
   font-size: 0.83em;
   line-height: 1.4rem;
-  color: #000000;
+  color: #FFFFFF;
   margin-top: 1.25em;
 }
 
 .process-choices-description .process-choice-text {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: normal;
   font-size: 0.67em;
@@ -361,7 +379,7 @@ footer {
 }
 
 .process-choices-description .process-choice-or {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: bold;
   font-size: 0.75em;
@@ -385,12 +403,12 @@ footer {
 }
 
 .process-choices-description .process-choice-actions {
-  font-family: Nunito Sans;
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: bold;
   font-size: 0.67em;
   line-height: 1rem;
-  color: #000000;
+  color: #000000;	
   margin-top: 1em;
 }
 
@@ -398,6 +416,7 @@ footer {
   width: 1em;
   vertical-align: middle;
   margin-right: 0.6em;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 450px) {
@@ -419,8 +438,26 @@ footer {
 }
 
 @font-face {
+	font-family: 'batman-forever';
+	src: url('../assets/batmanforever.ttf') format('truetype');
+}
+
+@font-face {
 
   font-family: 'DMSans' ;
   src: url('../assets/DMSans.ttf') format('truetype');
 
 }
+
+@font-face {
+	font-family: 'Space Grotesk';
+	src: url(../assets/space_grotesk.ttf) format('truetype');
+}
+
+@font-face {
+
+  font-family: 'batmfa' ;
+  src: url('../assets/batmfa.ttf') format('truetype');
+
+}
+

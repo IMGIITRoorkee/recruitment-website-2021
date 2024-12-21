@@ -9,10 +9,13 @@
 
 @media screen and (max-width: 600px) {
     .navlinks {
-        display: none;
+        
     }
     .site-footer-wrapper {
         justify-content: space-around;
+        font-size : 0.64rem;
+        font-family: Inter;
+        color: ffffff;
     }
     .sociallink img {
         width: 0.75em;
@@ -24,7 +27,7 @@
         width: 1em;
     }
     .page-heading-background {
-        background: url('/assets/banner_mobile.png');
+        background: url('/assets/aboutusbanner.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
