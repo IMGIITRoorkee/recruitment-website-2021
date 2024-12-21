@@ -167,16 +167,19 @@ footer {
   height: 1em;
   min-height: 3.5em;
   background-color: #13181c;
-  z-index: 2;
-  width:70%;
+  z-index: 0;
+  width:100%;
 }
 
 .site-footer-wrapper {
   height: 100%;
+  width:100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   font-family : Inter;
+  position:absolute;
+  z-index:3;
 }
 
 .site-footer-wrapper .navlink {
@@ -218,7 +221,7 @@ footer {
 .page-heading-background {
   height: 7.5em;
   background: #EDEEF5;
-  background: url("/assets/banner.png");
+  background: url("/assets/aboutusbanner.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -241,7 +244,7 @@ footer {
 }
 
 .heading-background-box {
-  background: #13181C;
+ 
   position: absolute;
   width: 110%;
   height: 110%;
@@ -253,7 +256,9 @@ footer {
 .heading-text {
   position: relative;
   z-index: 2;
- 
+   color: #FFDD61;
+   font-family:'batmfa' ,Inter
+
   
 }
 

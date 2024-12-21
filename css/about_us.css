@@ -39,7 +39,7 @@
     font-weight: 900;
     font-size: 2em;
     line-height: 50px;
-    color: #254F73;
+    color: #FFDD61;
 }
 
 .highlights-description {
@@ -66,41 +66,42 @@
     font-weight: 900;
     font-size: 1.5em;
     line-height: 1em;
-    color: #254F73;
+    /* color: #FFDD61; */
+    color: #55bcbf;
     margin-top: .75em;
     margin-right: .2em;
     margin-left: .2em;
 }
 
 .question-description {
-    font-family: Nunito Sans;
+    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: .45em;
     line-height: 1.5em;
-    color: #202020;
+    color: #ffffff;
     text-align: right;
 }
 
 .question-items-special {
-    font-family: Nunito Sans;
+    font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 1.5em;
     line-height: 1em;
-    color: #254F73;
+    color: #55bcbf;
     margin-top: .75em;
     text-align: center;
     margin-bottom: .74em;
 }
 
 .question-description-special {
-    font-family: Nunito Sans;
+    font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: .9em;
     line-height: 1.25em;
-    color: #202020;
+    color: #ffffff;
     text-align: center;
 }
 
