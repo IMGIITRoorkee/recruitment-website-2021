@@ -41,6 +41,7 @@
 .event-complete {
     height: 80px;
     width:5px;
+	/* border : 1px solid #; */
     background-color: #55BCBF;
     display:block;
     margin: 0 auto;
