@@ -4,6 +4,7 @@ function toggleAudio() {
     audio.loop = true;
     if (audio.paused) {
       audio.play();
+      audio.volume = 0.3;
       icon.src = '/assets/pause-fill.svg';
     }
     else {
