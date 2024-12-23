@@ -93,6 +93,7 @@
     <script type="text/javascript" src="/js/base_hamburger.js"></script>
     <script type="text/javascript" src="/js/fix_header.js"></script>
     <script type="text/javascript" src="/js/toggle_overlay.js"></script>
+    <script type="text/javascript" src="/js/audio.js"></script>
 
     <!--Development mode, live reload-->
     <!-- <script type="text/javascript" src="http://livejs.com/live.js"></script> -->
@@ -593,5 +594,9 @@
 	<div class="bottom-batman-wrapper">
 		<img src="/assets/bottom-batman.png">
 	</div>
+  <div class="audio-button" onclick="toggleAudio()">
+    <img id="audio-icon" src="/assets/play-fill.svg" alt="Play Audio" />
+  </div>
+  <audio id="batman-theme" src="/assets/sound/batman-theme.mp3"></audio>
   </body>
 </html>
